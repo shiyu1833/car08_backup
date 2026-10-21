@@ -1,0 +1,27 @@
+[5.533s] Invoking command in '/home/ubuntu/th_ws/src/ai_car': PYTHONPATH=/home/ubuntu/th_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_car build --build-base /home/ubuntu/th_ws/build/ai_car/build install --record /home/ubuntu/th_ws/build/ai_car/install.log --single-version-externally-managed install_data
+[7.320s] running egg_info
+[7.441s] writing ../../build/ai_car/ai_car.egg-info/PKG-INFO
+[7.444s] writing dependency_links to ../../build/ai_car/ai_car.egg-info/dependency_links.txt
+[7.447s] writing entry points to ../../build/ai_car/ai_car.egg-info/entry_points.txt
+[7.448s] writing requirements to ../../build/ai_car/ai_car.egg-info/requires.txt
+[7.450s] writing top-level names to ../../build/ai_car/ai_car.egg-info/top_level.txt
+[7.714s] reading manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'
+[7.720s] writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'
+[7.721s] running build
+[7.722s] running build_py
+[7.724s] copying ai_car/dxl_arm.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[7.725s] running install
+[7.757s] running install_lib
+[7.884s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dxl_arm.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[7.891s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_arm.py to dxl_arm.cpython-312.pyc
+[7.894s] running install_data
+[7.897s] running install_egg_info
+[8.030s] removing '/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info' (and everything under it)
+[8.036s] Copying ../../build/ai_car/ai_car.egg-info to /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info
+[8.045s] running install_scripts
+[8.902s] Installing aicar_base script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[8.903s] Installing aicar_imu script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[8.908s] Installing aicar_odom script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[8.910s] Installing aicar_teleop script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[8.920s] writing list of installed files to '/home/ubuntu/th_ws/build/ai_car/install.log'
+[9.107s] Invoked command in '/home/ubuntu/th_ws/src/ai_car' returned '0': PYTHONPATH=/home/ubuntu/th_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_car build --build-base /home/ubuntu/th_ws/build/ai_car/build install --record /home/ubuntu/th_ws/build/ai_car/install.log --single-version-externally-managed install_data

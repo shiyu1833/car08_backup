@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000914] (ai_car) JobQueued: {'identifier': 'ai_car', 'dependencies': OrderedDict()}
+[0.001686] (ai_car) JobStarted: {'identifier': 'ai_car'}
+[0.099286] (-) TimerEvent: {}
+[0.199911] (-) TimerEvent: {}
+[0.300499] (-) TimerEvent: {}
+[0.401084] (-) TimerEvent: {}
+[0.501615] (-) TimerEvent: {}
+[0.602245] (-) TimerEvent: {}
+[0.702708] (-) TimerEvent: {}
+[0.803272] (-) TimerEvent: {}
+[0.903933] (-) TimerEvent: {}
+[1.004593] (-) TimerEvent: {}
+[1.105230] (-) TimerEvent: {}
+[1.205843] (-) TimerEvent: {}
+[1.306370] (-) TimerEvent: {}
+[1.406888] (-) TimerEvent: {}
+[1.507459] (-) TimerEvent: {}
+[1.607976] (-) TimerEvent: {}
+[1.708473] (-) TimerEvent: {}
+[1.808995] (-) TimerEvent: {}
+[1.909570] (-) TimerEvent: {}
+[2.010246] (-) TimerEvent: {}
+[2.110890] (-) TimerEvent: {}
+[2.211516] (-) TimerEvent: {}
+[2.312216] (-) TimerEvent: {}
+[2.412836] (-) TimerEvent: {}
+[2.513347] (-) TimerEvent: {}
+[2.613946] (-) TimerEvent: {}
+[2.714448] (-) TimerEvent: {}
+[2.814936] (-) TimerEvent: {}
+[2.915526] (-) TimerEvent: {}
+[3.026968] (-) TimerEvent: {}
+[3.127549] (-) TimerEvent: {}
+[3.228123] (-) TimerEvent: {}
+[3.328607] (-) TimerEvent: {}
+[3.429148] (-) TimerEvent: {}
+[3.529631] (-) TimerEvent: {}
+[3.630166] (-) TimerEvent: {}
+[3.730701] (-) TimerEvent: {}
+[3.831357] (-) TimerEvent: {}
+[3.931953] (-) TimerEvent: {}
+[4.032569] (-) TimerEvent: {}
+[4.118916] (ai_car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ai_car', 'build', '--build-base', '/home/ubuntu/th_ws/build/ai_car/build', 'install', '--record', '/home/ubuntu/th_ws/build/ai_car/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/th_ws/src/ai_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.1.11.52 47892 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/th_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/camera_ws/install:/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CYCLONE_URI': '/home/ubuntu/cyclonedds.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '25', 'AMENT_PREFIX_PATH': '/home/ubuntu/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/th_ws/build/ai_car', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera/ipa', 'SSH_CONNECTION': '10.1.11.52 47892 10.1.11.51 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/th_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/camera_ws/install/camera_ros'}, 'shell': False}
+[4.132764] (-) TimerEvent: {}
+[4.233365] (-) TimerEvent: {}
+[4.333983] (-) TimerEvent: {}
+[4.434517] (-) TimerEvent: {}
+[4.535044] (-) TimerEvent: {}
+[4.635526] (-) TimerEvent: {}
+[4.736087] (-) TimerEvent: {}
+[4.836557] (-) TimerEvent: {}
+[4.937087] (-) TimerEvent: {}
+[5.037548] (-) TimerEvent: {}
+[5.138046] (-) TimerEvent: {}
+[5.150859] (ai_car) StdoutLine: {'line': b'running egg_info\n'}
+[5.152048] (ai_car) StdoutLine: {'line': b'creating ../../build/ai_car/ai_car.egg-info\n'}
+[5.220943] (ai_car) StdoutLine: {'line': b'writing ../../build/ai_car/ai_car.egg-info/PKG-INFO\n'}
+[5.222073] (ai_car) StdoutLine: {'line': b'writing dependency_links to ../../build/ai_car/ai_car.egg-info/dependency_links.txt\n'}
+[5.222854] (ai_car) StdoutLine: {'line': b'writing entry points to ../../build/ai_car/ai_car.egg-info/entry_points.txt\n'}
+[5.223453] (ai_car) StdoutLine: {'line': b'writing requirements to ../../build/ai_car/ai_car.egg-info/requires.txt\n'}
+[5.223986] (ai_car) StdoutLine: {'line': b'writing top-level names to ../../build/ai_car/ai_car.egg-info/top_level.txt\n'}
+[5.224502] (ai_car) StdoutLine: {'line': b"writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'\n"}
+[5.238171] (-) TimerEvent: {}
+[5.338655] (-) TimerEvent: {}
+[5.368406] (ai_car) StdoutLine: {'line': b"reading manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'\n"}
+[5.371558] (ai_car) StdoutLine: {'line': b"writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'\n"}
+[5.372171] (ai_car) StdoutLine: {'line': b'running build\n'}
+[5.372615] (ai_car) StdoutLine: {'line': b'running build_py\n'}
+[5.373276] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/build/ai_car/build\n'}
+[5.373784] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/build/ai_car/build/lib\n'}
+[5.374306] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.374831] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_odom.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.375327] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_teleop.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.376145] (ai_car) StdoutLine: {'line': b'copying ai_car/dxl_wheel.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.376868] (ai_car) StdoutLine: {'line': b'copying ai_car/__init__.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.377502] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_base.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.378276] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_imu.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.378991] (ai_car) StdoutLine: {'line': b'copying ai_car/dynamixel_wheel.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.379671] (ai_car) StdoutLine: {'line': b'copying ai_car/dxl_arm.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.380401] (ai_car) StdoutLine: {'line': b'copying ai_car/dynamixel_arm.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car\n'}
+[5.381758] (ai_car) StdoutLine: {'line': b'running install\n'}
+[5.405709] (ai_car) StdoutLine: {'line': b'running install_lib\n'}
+[5.438800] (-) TimerEvent: {}
+[5.477829] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.478438] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_odom.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.479182] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_teleop.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.479983] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dxl_wheel.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.480701] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/__init__.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.481360] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_base.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.482184] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_imu.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.482928] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dynamixel_wheel.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.483703] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dxl_arm.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.484462] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dynamixel_arm.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[5.486777] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py to aicar_odom.cpython-312.pyc\n'}
+[5.491563] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_teleop.py to aicar_teleop.cpython-312.pyc\n'}
+[5.497591] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_wheel.py to dxl_wheel.cpython-312.pyc\n'}
+[5.501458] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/__init__.py to __init__.cpython-312.pyc\n'}
+[5.502575] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py to aicar_base.cpython-312.pyc\n'}
+[5.509223] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_imu.py to aicar_imu.cpython-312.pyc\n'}
+[5.512313] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dynamixel_wheel.py to dynamixel_wheel.cpython-312.pyc\n'}
+[5.515915] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_arm.py to dxl_arm.cpython-312.pyc\n'}
+[5.519776] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dynamixel_arm.py to dynamixel_arm.cpython-312.pyc\n'}
+[5.523302] (ai_car) StdoutLine: {'line': b'running install_data\n'}
+[5.523940] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ament_index\n'}
+[5.524497] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index\n'}
+[5.525066] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index/packages\n'}
+[5.525415] (ai_car) StdoutLine: {'line': b'copying resource/ai_car -> /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index/packages\n'}
+[5.525907] (ai_car) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/th_ws/install/ai_car/share/ai_car\n'}
+[5.526368] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/config\n'}
+[5.526849] (ai_car) StdoutLine: {'line': b'copying config/mapper_params.yaml -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/config\n'}
+[5.527601] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch\n'}
+[5.528179] (ai_car) StdoutLine: {'line': b'copying launch/aicar_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch\n'}
+[5.528725] (ai_car) StdoutLine: {'line': b'copying launch/rviz2_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch\n'}
+[5.529421] (ai_car) StdoutLine: {'line': b'copying launch/slam_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch\n'}
+[5.530101] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.530626] (ai_car) StdoutLine: {'line': b'copying meshes/arm_link_2.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.535608] (ai_car) StdoutLine: {'line': b'copying meshes/RP-lidar-A1.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.538969] (-) TimerEvent: {}
+[5.548918] (ai_car) StdoutLine: {'line': b'copying meshes/left_tire.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.555565] (ai_car) StdoutLine: {'line': b'copying meshes/arm_tool.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.557103] (ai_car) StdoutLine: {'line': b'copying meshes/base_link.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.578100] (ai_car) StdoutLine: {'line': b'copying meshes/arm_link_1.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.582650] (ai_car) StdoutLine: {'line': b'copying meshes/right_tire.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes\n'}
+[5.589279] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz\n'}
+[5.589905] (ai_car) StdoutLine: {'line': b'copying rviz/aicar.rviz -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz\n'}
+[5.590475] (ai_car) StdoutLine: {'line': b'copying rviz/slam.rviz -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz\n'}
+[5.591161] (ai_car) StdoutLine: {'line': b'creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/urdf\n'}
+[5.591674] (ai_car) StdoutLine: {'line': b'copying urdf/ai_car.urdf -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/urdf\n'}
+[5.592275] (ai_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.639075] (-) TimerEvent: {}
+[5.668306] (ai_car) StdoutLine: {'line': b'Copying ../../build/ai_car/ai_car.egg-info to /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info\n'}
+[5.673169] (ai_car) StdoutLine: {'line': b'running install_scripts\n'}
+[5.739200] (-) TimerEvent: {}
+[5.839685] (-) TimerEvent: {}
+[5.940209] (-) TimerEvent: {}
+[6.040694] (-) TimerEvent: {}
+[6.141225] (-) TimerEvent: {}
+[6.206928] (ai_car) StdoutLine: {'line': b'Installing aicar_base script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car\n'}
+[6.207718] (ai_car) StdoutLine: {'line': b'Installing aicar_imu script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car\n'}
+[6.208360] (ai_car) StdoutLine: {'line': b'Installing aicar_odom script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car\n'}
+[6.208967] (ai_car) StdoutLine: {'line': b'Installing aicar_teleop script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car\n'}
+[6.210624] (ai_car) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/th_ws/build/ai_car/install.log'\n"}
+[6.241594] (-) TimerEvent: {}
+[6.342939] (-) TimerEvent: {}
+[6.350199] (ai_car) CommandEnded: {'returncode': 0}
+[6.419133] (ai_car) JobEnded: {'identifier': 'ai_car', 'rc': 0}
+[6.421610] (-) EventReactorShutdown: {}

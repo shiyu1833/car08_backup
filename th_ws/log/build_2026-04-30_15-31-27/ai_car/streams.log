@@ -1,0 +1,80 @@
+[4.125s] Invoking command in '/home/ubuntu/th_ws/src/ai_car': PYTHONPATH=/home/ubuntu/th_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_car build --build-base /home/ubuntu/th_ws/build/ai_car/build install --record /home/ubuntu/th_ws/build/ai_car/install.log --single-version-externally-managed install_data
+[5.150s] running egg_info
+[5.151s] creating ../../build/ai_car/ai_car.egg-info
+[5.220s] writing ../../build/ai_car/ai_car.egg-info/PKG-INFO
+[5.221s] writing dependency_links to ../../build/ai_car/ai_car.egg-info/dependency_links.txt
+[5.221s] writing entry points to ../../build/ai_car/ai_car.egg-info/entry_points.txt
+[5.222s] writing requirements to ../../build/ai_car/ai_car.egg-info/requires.txt
+[5.223s] writing top-level names to ../../build/ai_car/ai_car.egg-info/top_level.txt
+[5.223s] writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'
+[5.367s] reading manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'
+[5.370s] writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'
+[5.371s] running build
+[5.371s] running build_py
+[5.372s] creating /home/ubuntu/th_ws/build/ai_car/build
+[5.372s] creating /home/ubuntu/th_ws/build/ai_car/build/lib
+[5.373s] creating /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.373s] copying ai_car/aicar_odom.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.374s] copying ai_car/aicar_teleop.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.375s] copying ai_car/dxl_wheel.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.375s] copying ai_car/__init__.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.376s] copying ai_car/aicar_base.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.377s] copying ai_car/aicar_imu.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.378s] copying ai_car/dynamixel_wheel.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.378s] copying ai_car/dxl_arm.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.379s] copying ai_car/dynamixel_arm.py -> /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car
+[5.380s] running install
+[5.404s] running install_lib
+[5.476s] creating /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.477s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_odom.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.478s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_teleop.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.479s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dxl_wheel.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.479s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/__init__.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.480s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_base.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.481s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/aicar_imu.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.482s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dynamixel_wheel.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.482s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dxl_arm.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.483s] copying /home/ubuntu/th_ws/build/ai_car/build/lib/ai_car/dynamixel_arm.py -> /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car
+[5.485s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py to aicar_odom.cpython-312.pyc
+[5.490s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_teleop.py to aicar_teleop.cpython-312.pyc
+[5.496s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_wheel.py to dxl_wheel.cpython-312.pyc
+[5.500s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/__init__.py to __init__.cpython-312.pyc
+[5.501s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py to aicar_base.cpython-312.pyc
+[5.508s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_imu.py to aicar_imu.cpython-312.pyc
+[5.511s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dynamixel_wheel.py to dynamixel_wheel.cpython-312.pyc
+[5.515s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_arm.py to dxl_arm.cpython-312.pyc
+[5.518s] byte-compiling /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dynamixel_arm.py to dynamixel_arm.cpython-312.pyc
+[5.522s] running install_data
+[5.523s] creating /home/ubuntu/th_ws/install/ai_car/share/ament_index
+[5.523s] creating /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index
+[5.524s] creating /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index/packages
+[5.524s] copying resource/ai_car -> /home/ubuntu/th_ws/install/ai_car/share/ament_index/resource_index/packages
+[5.524s] copying package.xml -> /home/ubuntu/th_ws/install/ai_car/share/ai_car
+[5.525s] creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/config
+[5.525s] copying config/mapper_params.yaml -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/config
+[5.526s] creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch
+[5.527s] copying launch/aicar_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch
+[5.527s] copying launch/rviz2_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch
+[5.528s] copying launch/slam_launch.py -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/launch
+[5.529s] creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.529s] copying meshes/arm_link_2.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.534s] copying meshes/RP-lidar-A1.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.548s] copying meshes/left_tire.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.554s] copying meshes/arm_tool.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.556s] copying meshes/base_link.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.577s] copying meshes/arm_link_1.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.581s] copying meshes/right_tire.stl -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/meshes
+[5.588s] creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz
+[5.588s] copying rviz/aicar.rviz -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz
+[5.589s] copying rviz/slam.rviz -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/rviz
+[5.590s] creating /home/ubuntu/th_ws/install/ai_car/share/ai_car/urdf
+[5.590s] copying urdf/ai_car.urdf -> /home/ubuntu/th_ws/install/ai_car/share/ai_car/urdf
+[5.591s] running install_egg_info
+[5.667s] Copying ../../build/ai_car/ai_car.egg-info to /home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info
+[5.672s] running install_scripts
+[6.206s] Installing aicar_base script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[6.206s] Installing aicar_imu script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[6.207s] Installing aicar_odom script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[6.208s] Installing aicar_teleop script to /home/ubuntu/th_ws/install/ai_car/lib/ai_car
+[6.209s] writing list of installed files to '/home/ubuntu/th_ws/build/ai_car/install.log'
+[6.349s] Invoked command in '/home/ubuntu/th_ws/src/ai_car' returned '0': PYTHONPATH=/home/ubuntu/th_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/th_ws/install/ai_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_car build --build-base /home/ubuntu/th_ws/build/ai_car/build install --record /home/ubuntu/th_ws/build/ai_car/install.log --single-version-externally-managed install_data
