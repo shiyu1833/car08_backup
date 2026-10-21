@@ -1,0 +1,5 @@
+[console_scripts]
+aicar_base = ai_car.aicar_base:main
+aicar_imu = ai_car.aicar_imu:main
+aicar_odom = ai_car.aicar_odom:main
+aicar_teleop = ai_car.aicar_teleop:main

@@ -1,0 +1,256 @@
+[INFO] [1778546686.021224956] [aicar_teleop]: [ ARM ] J1 : 2, J2 : 0, tool : 0
+[INFO] [1778546687.122078553] [aicar_teleop]: [ ARM ] J1 : 4, J2 : 0, tool : 0
+[INFO] [1778546687.634505287] [aicar_teleop]: [ ARM ] J1 : 6, J2 : 0, tool : 0
+[INFO] [1778546687.885931283] [aicar_teleop]: [ ARM ] J1 : 8, J2 : 0, tool : 0
+[INFO] [1778546688.102173422] [aicar_teleop]: [ ARM ] J1 : 10, J2 : 0, tool : 0
+[INFO] [1778546688.294497692] [aicar_teleop]: [ ARM ] J1 : 12, J2 : 0, tool : 0
+[INFO] [1778546688.504046441] [aicar_teleop]: [ ARM ] J1 : 14, J2 : 0, tool : 0
+[INFO] [1778546688.736922655] [aicar_teleop]: [ ARM ] J1 : 16, J2 : 0, tool : 0
+[INFO] [1778546689.161422007] [aicar_teleop]: [ ARM ] J1 : 18, J2 : 0, tool : 0
+[INFO] [1778546689.769431106] [aicar_teleop]: [ ARM ] J1 : 16, J2 : 0, tool : 0
+[INFO] [1778546689.976275326] [aicar_teleop]: [ ARM ] J1 : 14, J2 : 0, tool : 0
+[INFO] [1778546690.159996496] [aicar_teleop]: [ ARM ] J1 : 12, J2 : 0, tool : 0
+[INFO] [1778546690.360535263] [aicar_teleop]: [ ARM ] J1 : 10, J2 : 0, tool : 0
+[INFO] [1778546690.536412522] [aicar_teleop]: [ ARM ] J1 : 8, J2 : 0, tool : 0
+[INFO] [1778546690.703603911] [aicar_teleop]: [ ARM ] J1 : 6, J2 : 0, tool : 0
+[INFO] [1778546690.888706525] [aicar_teleop]: [ ARM ] J1 : 4, J2 : 0, tool : 0
+[INFO] [1778546691.067909507] [aicar_teleop]: [ ARM ] J1 : 2, J2 : 0, tool : 0
+[INFO] [1778546691.257097521] [aicar_teleop]: [ ARM ] J1 : 0, J2 : 0, tool : 0
+[INFO] [1778546691.574431991] [aicar_teleop]: [ ARM ] J1 : 2, J2 : 0, tool : 0
+[INFO] [1778546692.082292207] [aicar_teleop]: [ ARM ] J1 : 4, J2 : 0, tool : 0
+[INFO] [1778546692.127172227] [aicar_teleop]: [ ARM ] J1 : 6, J2 : 0, tool : 0
+[INFO] [1778546692.137137273] [aicar_teleop]: [ ARM ] J1 : 8, J2 : 0, tool : 0
+[INFO] [1778546692.177404153] [aicar_teleop]: [ ARM ] J1 : 10, J2 : 0, tool : 0
+[INFO] [1778546692.206357482] [aicar_teleop]: [ ARM ] J1 : 12, J2 : 0, tool : 0
+[INFO] [1778546692.247333578] [aicar_teleop]: [ ARM ] J1 : 14, J2 : 0, tool : 0
+[INFO] [1778546692.271238038] [aicar_teleop]: [ ARM ] J1 : 16, J2 : 0, tool : 0
+[INFO] [1778546692.304333547] [aicar_teleop]: [ ARM ] J1 : 18, J2 : 0, tool : 0
+[INFO] [1778546692.336514003] [aicar_teleop]: [ ARM ] J1 : 20, J2 : 0, tool : 0
+[INFO] [1778546692.375257202] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546692.404044552] [aicar_teleop]: [ ARM ] J1 : 24, J2 : 0, tool : 0
+[INFO] [1778546692.436901731] [aicar_teleop]: [ ARM ] J1 : 26, J2 : 0, tool : 0
+[INFO] [1778546692.477587982] [aicar_teleop]: [ ARM ] J1 : 28, J2 : 0, tool : 0
+[INFO] [1778546692.498268831] [aicar_teleop]: [ ARM ] J1 : 30, J2 : 0, tool : 0
+[INFO] [1778546692.759021118] [aicar_teleop]: [ ARM ] J1 : 28, J2 : 0, tool : 0
+[INFO] [1778546693.260058605] [aicar_teleop]: [ ARM ] J1 : 26, J2 : 0, tool : 0
+[INFO] [1778546693.296526702] [aicar_teleop]: [ ARM ] J1 : 24, J2 : 0, tool : 0
+[INFO] [1778546693.331863183] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546693.678569188] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.186546528] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.215803538] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.241051411] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.289586164] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.308116779] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.357525212] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.378832912] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.408752949] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.462519493] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.484071172] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.529070516] [aicar_teleop]: [ ARM ] J1 : 22, J2 : 0, tool : 0
+[INFO] [1778546694.830516550] [aicar_teleop]: [ ARM ] J1 : 24, J2 : 0, tool : 0
+[INFO] [1778546695.339063175] [aicar_teleop]: [ ARM ] J1 : 26, J2 : 0, tool : 0
+[INFO] [1778546695.373940184] [aicar_teleop]: [ ARM ] J1 : 28, J2 : 0, tool : 0
+[INFO] [1778546695.404028027] [aicar_teleop]: [ ARM ] J1 : 30, J2 : 0, tool : 0
+[INFO] [1778546695.445224191] [aicar_teleop]: [ ARM ] J1 : 32, J2 : 0, tool : 0
+[INFO] [1778546695.474167976] [aicar_teleop]: [ ARM ] J1 : 34, J2 : 0, tool : 0
+[INFO] [1778546695.511226480] [aicar_teleop]: [ ARM ] J1 : 36, J2 : 0, tool : 0
+[INFO] [1778546695.542159793] [aicar_teleop]: [ ARM ] J1 : 38, J2 : 0, tool : 0
+[INFO] [1778546695.574654626] [aicar_teleop]: [ ARM ] J1 : 40, J2 : 0, tool : 0
+[INFO] [1778546695.612958760] [aicar_teleop]: [ ARM ] J1 : 42, J2 : 0, tool : 0
+[INFO] [1778546695.641628641] [aicar_teleop]: [ ARM ] J1 : 44, J2 : 0, tool : 0
+[INFO] [1778546695.680817549] [aicar_teleop]: [ ARM ] J1 : 46, J2 : 0, tool : 0
+[INFO] [1778546695.709165451] [aicar_teleop]: [ ARM ] J1 : 48, J2 : 0, tool : 0
+[INFO] [1778546695.745525651] [aicar_teleop]: [ ARM ] J1 : 50, J2 : 0, tool : 0
+[INFO] [1778546695.773659771] [aicar_teleop]: [ ARM ] J1 : 52, J2 : 0, tool : 0
+[INFO] [1778546695.812671869] [aicar_teleop]: [ ARM ] J1 : 54, J2 : 0, tool : 0
+[INFO] [1778546695.840428220] [aicar_teleop]: [ ARM ] J1 : 56, J2 : 0, tool : 0
+[INFO] [1778546695.873514050] [aicar_teleop]: [ ARM ] J1 : 58, J2 : 0, tool : 0
+[INFO] [1778546695.901513772] [aicar_teleop]: [ ARM ] J1 : 60, J2 : 0, tool : 0
+[INFO] [1778546695.923410989] [aicar_teleop]: [ ARM ] J1 : 62, J2 : 0, tool : 0
+[INFO] [1778546695.962424845] [aicar_teleop]: [ ARM ] J1 : 64, J2 : 0, tool : 0
+[INFO] [1778546695.990752559] [aicar_teleop]: [ ARM ] J1 : 66, J2 : 0, tool : 0
+[INFO] [1778546696.035279350] [aicar_teleop]: [ ARM ] J1 : 68, J2 : 0, tool : 0
+[INFO] [1778546696.057121132] [aicar_teleop]: [ ARM ] J1 : 70, J2 : 0, tool : 0
+[INFO] [1778546696.095647362] [aicar_teleop]: [ ARM ] J1 : 72, J2 : 0, tool : 0
+[INFO] [1778546696.125330604] [aicar_teleop]: [ ARM ] J1 : 74, J2 : 0, tool : 0
+[INFO] [1778546696.161458477] [aicar_teleop]: [ ARM ] J1 : 76, J2 : 0, tool : 0
+[INFO] [1778546696.191627133] [aicar_teleop]: [ ARM ] J1 : 78, J2 : 0, tool : 0
+[INFO] [1778546696.229803106] [aicar_teleop]: [ ARM ] J1 : 80, J2 : 0, tool : 0
+[INFO] [1778546696.257438655] [aicar_teleop]: [ ARM ] J1 : 82, J2 : 0, tool : 0
+[INFO] [1778546696.294955935] [aicar_teleop]: [ ARM ] J1 : 84, J2 : 0, tool : 0
+[INFO] [1778546696.324771466] [aicar_teleop]: [ ARM ] J1 : 86, J2 : 0, tool : 0
+[INFO] [1778546696.362390559] [aicar_teleop]: [ ARM ] J1 : 88, J2 : 0, tool : 0
+[INFO] [1778546696.392072967] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.428225507] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.455887461] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.490967376] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.527643099] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.558346782] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.592594689] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.628896506] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.659110943] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.691677790] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.727945652] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.758584105] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.790991701] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.827836039] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.859332926] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.895146848] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.923932464] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.961028354] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546696.989781494] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.027692461] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.062030938] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.090695385] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.128438431] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.155976337] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.189784019] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.227159224] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.257005469] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.291291854] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.327721126] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.363400283] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.391787508] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.422513735] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.460618071] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.488399797] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.524366835] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.555872507] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.571900677] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.606636176] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.661589930] [aicar_teleop]: [ ARM ] J1 : 90, J2 : 0, tool : 0
+[INFO] [1778546697.986604027] [aicar_teleop]: [ ARM ] J1 : 88, J2 : 0, tool : 0
+[INFO] [1778546698.490456137] [aicar_teleop]: [ ARM ] J1 : 86, J2 : 0, tool : 0
+[INFO] [1778546698.525159666] [aicar_teleop]: [ ARM ] J1 : 84, J2 : 0, tool : 0
+[INFO] [1778546698.563092484] [aicar_teleop]: [ ARM ] J1 : 82, J2 : 0, tool : 0
+[INFO] [1778546698.588064456] [aicar_teleop]: [ ARM ] J1 : 80, J2 : 0, tool : 0
+[INFO] [1778546698.623391255] [aicar_teleop]: [ ARM ] J1 : 78, J2 : 0, tool : 0
+[INFO] [1778546698.660002512] [aicar_teleop]: [ ARM ] J1 : 76, J2 : 0, tool : 0
+[INFO] [1778546698.689272406] [aicar_teleop]: [ ARM ] J1 : 74, J2 : 0, tool : 0
+[INFO] [1778546698.722426687] [aicar_teleop]: [ ARM ] J1 : 72, J2 : 0, tool : 0
+[INFO] [1778546698.759898302] [aicar_teleop]: [ ARM ] J1 : 70, J2 : 0, tool : 0
+[INFO] [1778546698.789134535] [aicar_teleop]: [ ARM ] J1 : 68, J2 : 0, tool : 0
+[INFO] [1778546698.827596099] [aicar_teleop]: [ ARM ] J1 : 66, J2 : 0, tool : 0
+[INFO] [1778546699.134998876] [aicar_teleop]: [ ARM ] J1 : 64, J2 : 0, tool : 0
+[INFO] [1778546699.515060597] [aicar_teleop]: [ ARM ] J1 : 64, J2 : 0, tool : 0
+[INFO] [1778546722.768711683] [aicar_teleop]: [ WHEEL ] linear : 0.01, angular : 0.00
+[INFO] [1778546723.036138869] [aicar_teleop]: [ WHEEL ] linear : 0.02, angular : 0.00
+[INFO] [1778546723.316914839] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 0.00
+[INFO] [1778546723.532518098] [aicar_teleop]: [ WHEEL ] linear : 0.04, angular : 0.00
+[INFO] [1778546724.063911479] [aicar_teleop]: [ WHEEL ] linear : 0.05, angular : 0.00
+[INFO] [1778546724.096713860] [aicar_teleop]: [ WHEEL ] linear : 0.06, angular : 0.00
+[INFO] [1778546724.147867872] [aicar_teleop]: [ WHEEL ] linear : 0.07, angular : 0.00
+[INFO] [1778546724.168812664] [aicar_teleop]: [ WHEEL ] linear : 0.08, angular : 0.00
+[INFO] [1778546724.489605684] [aicar_teleop]: [ WHEEL ] linear : 0.09, angular : 0.00
+[INFO] [1778546724.999550119] [aicar_teleop]: [ WHEEL ] linear : 0.10, angular : 0.00
+[INFO] [1778546725.028234639] [aicar_teleop]: [ WHEEL ] linear : 0.11, angular : 0.00
+[INFO] [1778546725.070909765] [aicar_teleop]: [ WHEEL ] linear : 0.12, angular : 0.00
+[INFO] [1778546725.088861981] [aicar_teleop]: [ WHEEL ] linear : 0.13, angular : 0.00
+[INFO] [1778546725.135395427] [aicar_teleop]: [ WHEEL ] linear : 0.14, angular : 0.00
+[INFO] [1778546725.167424159] [aicar_teleop]: [ WHEEL ] linear : 0.15, angular : 0.00
+[INFO] [1778546725.204705937] [aicar_teleop]: [ WHEEL ] linear : 0.15, angular : 0.00
+[INFO] [1778546725.337747292] [aicar_teleop]: [ WHEEL ] linear : 0.14, angular : 0.00
+[INFO] [1778546725.844491922] [aicar_teleop]: [ WHEEL ] linear : 0.13, angular : 0.00
+[INFO] [1778546725.880679475] [aicar_teleop]: [ WHEEL ] linear : 0.12, angular : 0.00
+[INFO] [1778546725.911584496] [aicar_teleop]: [ WHEEL ] linear : 0.11, angular : 0.00
+[INFO] [1778546725.942005439] [aicar_teleop]: [ WHEEL ] linear : 0.10, angular : 0.00
+[INFO] [1778546725.974300781] [aicar_teleop]: [ WHEEL ] linear : 0.09, angular : 0.00
+[INFO] [1778546726.016998551] [aicar_teleop]: [ WHEEL ] linear : 0.08, angular : 0.00
+[INFO] [1778546726.038857808] [aicar_teleop]: [ WHEEL ] linear : 0.07, angular : 0.00
+[INFO] [1778546726.079573527] [aicar_teleop]: [ WHEEL ] linear : 0.06, angular : 0.00
+[INFO] [1778546726.107593634] [aicar_teleop]: [ WHEEL ] linear : 0.05, angular : 0.00
+[INFO] [1778546726.141294710] [aicar_teleop]: [ WHEEL ] linear : 0.04, angular : 0.00
+[INFO] [1778546726.183475390] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 0.00
+[INFO] [1778546726.208778990] [aicar_teleop]: [ WHEEL ] linear : 0.02, angular : 0.00
+[INFO] [1778546726.240231037] [aicar_teleop]: [ WHEEL ] linear : 0.01, angular : 0.00
+[INFO] [1778546726.278117026] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 0.00
+[INFO] [1778546726.498542048] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 0.50
+[INFO] [1778546727.006285526] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 1.00
+[INFO] [1778546727.039156727] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 1.50
+[INFO] [1778546727.066977362] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 2.00
+[INFO] [1778546727.105681611] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 2.50
+[INFO] [1778546727.124311661] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 3.00
+[INFO] [1778546727.176412443] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 3.50
+[INFO] [1778546727.207022162] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.00
+[INFO] [1778546727.245536501] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.276133152] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.307067421] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.345054306] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.372189636] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.410613388] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.437542150] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.477833220] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.506566903] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.542927190] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.573341668] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.610702610] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.639057509] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.677967697] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.705458470] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.739695283] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.772624272] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.807021971] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.844367957] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.873012774] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.907953327] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546727.945015411] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.50
+[INFO] [1778546728.454544074] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 4.00
+[INFO] [1778546728.476964570] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 3.50
+[INFO] [1778546728.515721834] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 3.00
+[INFO] [1778546728.545720804] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 2.50
+[INFO] [1778546728.572099098] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 2.00
+[INFO] [1778546728.616284193] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 1.50
+[INFO] [1778546728.654466744] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 1.00
+[INFO] [1778546728.692709544] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 0.50
+[INFO] [1778546728.722697409] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : 0.00
+[INFO] [1778546728.744395040] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -0.50
+[INFO] [1778546728.788065320] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -1.00
+[INFO] [1778546728.814059756] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -1.50
+[INFO] [1778546728.852462907] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -2.00
+[INFO] [1778546728.873963297] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -2.50
+[INFO] [1778546728.922065061] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -3.00
+[INFO] [1778546728.940274693] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -3.50
+[INFO] [1778546728.986534540] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.00
+[INFO] [1778546729.015041715] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.044430388] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.079534538] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.119277439] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.142461010] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.171511432] [aicar_teleop]: [ WHEEL ] linear : -0.00, angular : -4.50
+[INFO] [1778546729.353970798] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546729.855457329] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546729.890990207] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546729.914899259] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546729.949344324] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.005632737] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.014759256] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.055227605] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.093373454] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.122138271] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.156735585] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.192460146] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.221366250] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.254774863] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.291568697] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.326585172] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.355306786] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.391989152] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.421987057] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.454519883] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.492033242] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.524476312] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.554707536] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.591900615] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.622026868] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.658949551] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.687922292] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.725560483] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546730.756526151] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00
+[INFO] [1778546731.173092033] [aicar_teleop]: [ WHEEL ] linear : 0.01, angular : 0.00
+[INFO] [1778546731.368181074] [aicar_teleop]: [ WHEEL ] linear : 0.02, angular : 0.00
+[INFO] [1778546731.604892320] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 0.00
+[INFO] [1778546731.900693038] [aicar_teleop]: [ WHEEL ] linear : 0.04, angular : 0.00
+[INFO] [1778546732.893679106] [aicar_teleop]: [ ARM ] J1 : 0, J2 : 0, tool : 0
+[INFO] [1778546733.087726133] [aicar_teleop]: [ ARM ] J1 : 0, J2 : 0, tool : 0
+[INFO] [1778546734.756561137] [aicar_teleop]: [ ARM ] J1 : 0, J2 : 0, tool : 0
+[INFO] [1778546734.761265118] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00

@@ -1,0 +1,21 @@
+[INFO] [1776840314.027857774] [aicar_base]: Connect U2D2 ...
+[INFO] [1776840314.032754811] [aicar_base]: [ OK ] AICAR start
+[INFO] [1776843600.801908259] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1776843601.425816444] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1776843604.625586294] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1776843604.913908090] [aicar_base]: [ SET ] WHEEL : 50, 50
+[INFO] [1776843616.289389583] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843691.041698779] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843734.444002939] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843734.955958235] [aicar_base]: [ SET ] WHEEL : -12, -12
+[INFO] [1776843735.243847160] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1776843735.532074031] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1776843735.820704197] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843739.131710066] [aicar_base]: [ SET ] WHEEL : -12, -12
+[INFO] [1776843739.531837639] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1776843739.820352676] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1776843740.107953417] [aicar_base]: [ SET ] WHEEL : -50, -50
+[INFO] [1776843742.523719749] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843743.259757304] [aicar_base]: [ SET ] WHEEL : -101, 101
+[INFO] [1776843746.011462598] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1776843823.464650478] [aicar_base]: [ SET ] WHEEL : 0, 0

@@ -1,0 +1,4 @@
+[INFO] [1775813979.600552480] [aicar_base]: Connect U2D2 ...
+[INFO] [1775813979.604308587] [aicar_base]: [ OK ] AICAR start
+[INFO] [1775813983.139088755] [aicar_base]: [ SET ] ARM Joint : 1.50, 1.50
+[INFO] [1775813993.250506815] [aicar_base]: [ SET ] ARM Joint : 0.00, 1.50

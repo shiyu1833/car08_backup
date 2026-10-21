@@ -1,0 +1,21 @@
+1776676033.0682676 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-20-17-07-13-064825-ubuntu-7501
+1776676033.0688236 [INFO] [launch]: Default logging verbosity is set to INFO
+1776676033.3666086 [INFO] [aicar_base-1]: process started with pid [7514]
+1776676033.3674617 [INFO] [aicar_imu-2]: process started with pid [7515]
+1776676033.3712211 [INFO] [aicar_odom-3]: process started with pid [7516]
+1776676033.3717630 [INFO] [camera_node-4]: process started with pid [7517]
+1776676033.3722799 [INFO] [rplidar_composition-5]: process started with pid [7518]
+1776676073.2910590 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776676073.7859492 [INFO] [aicar_imu-2]: process has finished cleanly [pid 7515]
+1776676073.7964058 [INFO] [aicar_odom-3]: process has finished cleanly [pid 7516]
+1776676074.1298084 [INFO] [rplidar_composition-5]: process has finished cleanly [pid 7518]
+1776676075.3600695 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776676075.7975993 [ERROR] [aicar_base-1]: process has died [pid 7514, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args -r __node:=aicar_base'].
+1776676075.8121696 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776676076.3502719 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776676076.5779774 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776676078.3234644 [ERROR] [camera_node-4]: process[camera_node-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1776676078.3269203 [INFO] [camera_node-4]: sending signal 'SIGTERM' to process[camera_node-4]
+1776676083.3305452 [ERROR] [camera_node-4]: process[camera_node-4] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1776676083.3338716 [INFO] [camera_node-4]: sending signal 'SIGKILL' to process[camera_node-4]
+1776676083.3776546 [ERROR] [camera_node-4]: process has died [pid 7517, exit code -9, cmd '/home/ubuntu/ros2_ws/install/camera_ros/lib/camera_ros/camera_node --ros-args -r __node:=camera --params-file /tmp/launch_params_kfgj9k_b'].

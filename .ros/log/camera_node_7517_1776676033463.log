@@ -1,0 +1,282 @@
+[INFO] [1776676034.125435073] [camera]: 
+>> cameras:
+   0: imx219 (/base/soc/i2c0mux/i2c@1/imx219@10)
+[WARN] [1776676034.125727215] [camera]: no camera selected, using default: "/base/soc/i2c0mux/i2c@1/imx219@10"
+[WARN] [1776676034.125876655] [camera]: set parameter 'camera' to silence this warning
+[INFO] [1776676034.128697156] [camera]: 
+>> stream formats:
+   - NV21 (64x64 - 3280x2464)
+   - XBGR8888 (64x64 - 3280x2464)
+   - BGR888 (64x64 - 3280x2464)
+   - RGB888 (64x64 - 3280x2464)
+   - XRGB8888 (64x64 - 3280x2464)
+   - YUYV (64x64 - 3280x2464)
+   - UYVY (64x64 - 3280x2464)
+[WARN] [1776676034.128950271] [camera]: default pixel format (YUV420) not supported
+[WARN] [1776676034.129011532] [camera]: no pixel format selected, auto-selecting: "NV21"
+[WARN] [1776676034.129075200] [camera]: set parameter 'format' to silence this warning
+[INFO] [1776676034.129232934] [camera]: 
+>> NV21 format sizes:
+   - 160x120
+   - 240x160
+   - 320x240
+   - 400x240
+   - 480x320
+   - 640x360
+   - 640x480
+   - 720x480
+   - 768x480
+   - 854x480
+   - 720x576
+   - 800x600
+   - 960x540
+   - 1024x576
+   - 960x640
+   - 1024x600
+   - 1024x768
+   - 1280x720
+   - 1152x864
+   - 1280x800
+   - 1360x768
+   - 1366x768
+   - 1440x900
+   - 1280x1024
+   - 1536x864
+   - 1280x1080
+   - 1600x900
+   - 1400x1050
+   - 1680x1050
+   - 1600x1200
+   - 1920x1080
+   - 2048x1080
+   - 1920x1200
+   - 2160x1080
+   - 2048x1152
+   - 2560x1080
+   - 2048x1536
+   - 2560x1440
+   - 2560x1600
+   - 2960x1440
+   - 2560x2048
+   - 3200x1800
+   - 3200x2048
+   - 3200x2400
+[INFO] [1776676034.140308918] [camera]: camera "/base/soc/i2c0mux/i2c@1/imx219@10" configured with 320x240-NV21/Rec709 stream
+[INFO] [1776676034.141322195] [camera]: using default calibration URL
+[INFO] [1776676034.141480466] [camera]: camera calibration URL: file:///home/ubuntu/.ros/camera_info/imx219__base_soc_i2c0mux_i2c_1_imx219_10_320x240.yaml
+[ERROR] [1776676034.141679781] [camera_calibration_parsers]: Unable to open camera calibration file [/home/ubuntu/.ros/camera_info/imx219__base_soc_i2c0mux_i2c_1_imx219_10_320x240.yaml]
+[WARN] [1776676034.141940932] [camera]: Camera calibration file /home/ubuntu/.ros/camera_info/imx219__base_soc_i2c0mux_i2c_1_imx219_10_320x240.yaml not found
+[WARN] [1776676034.188247114] [camera]: FrameDurationLimits: cannot set default scalar value '33333' on span control (extend: 2), default will be ignored
+[ERROR] [1776676054.491843415] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.518918242] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.549254944] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.582990394] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.618194944] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.649914676] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.683508478] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.717571509] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.748538048] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.783524451] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.818366966] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.848867348] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.881951115] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.917627672] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.948715531] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676054.983047067] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.018339255] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.051856173] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.082573057] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.118700707] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.150530821] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.183880894] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.220004193] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.248465346] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.283758564] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.318520863] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.348489644] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.383367840] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.415174368] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.448463623] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.482776761] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.519542672] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.553563552] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.587254962] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.623575507] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.650459105] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.683325340] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.716814043] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.749398110] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.782699010] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.818010020] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.848368459] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.885107081] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.917373082] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.949961111] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676055.983729409] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.018071829] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.048549388] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.082565626] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.117274666] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.148324484] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.183495424] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.220372812] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.248033654] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.283325914] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.318319455] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.349599418] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.387107717] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.418168792] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.448155847] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.483206429] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.514423464] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.549211410] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.582437166] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.614508962] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.650548344] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.686210805] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.720462889] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.752129086] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.781693436] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.814996283] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.847822291] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.883480642] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.918925993] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.952672911] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676056.984190257] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.017887218] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.047673901] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.083259794] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.117469245] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.148542689] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.185620013] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.218566586] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.248686886] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.282580474] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.318570819] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.349097052] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.384220916] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.414502008] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.448216642] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.482750084] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.518563419] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.549773624] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.582592155] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.614640941] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.647781537] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.682784729] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.714009097] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.748685576] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.782493575] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.813930573] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.851448543] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.883217826] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.917533676] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.947497054] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676057.988562518] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.015848205] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.049995417] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.082278237] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.114300753] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.148635158] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.182595029] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.219568533] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.248547646] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.283600477] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.318519361] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.347666764] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.383347859] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.414317554] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.447373175] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676058.483419233] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.030649347] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.119125789] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.127203253] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.136971917] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.146317059] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.181534658] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.213129270] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.248137959] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.279575723] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.312374530] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.348573971] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.379581770] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.412525818] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.448220869] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.479055083] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.512851358] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.548525822] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.579271743] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.612860663] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.647106102] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.679972984] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.713702443] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.747585122] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.779507799] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.812183137] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.847872227] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.883199872] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.913468489] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.949304115] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676062.979489679] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.012820043] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.046141422] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.078974739] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.112429751] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.148627437] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.182162409] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.212877653] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.246452801] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.283512139] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.312470458] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.345985343] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.380050792] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.412071668] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.447890580] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.478309547] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.512722371] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.545018547] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.578160693] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.612572258] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.645066106] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.678614242] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.712289643] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.747263028] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.780667330] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.812517749] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.845704273] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.878181496] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.912908759] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.949063678] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676063.978098589] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.013022864] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.047719192] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.078008673] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.111948174] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.144802284] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.178076009] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.213070392] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.247055529] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.277874617] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.311669914] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.347295266] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.378665344] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.412513757] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.448047040] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.478128592] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.513643083] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.547815618] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.578578516] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.613163151] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.644620947] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.678143683] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.712528183] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.748063262] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.778372386] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.813472426] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.844981302] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.878592090] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.912525001] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.946309541] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676064.979919533] [camera]: Unrecognized image encoding [nv21]
+[ERROR] [1776676065.020261925] [camera]: Unrecognized image encoding [nv21]
+[INFO] [1776676073.278084275] [rclcpp]: signal_handler(SIGINT/SIGTERM)

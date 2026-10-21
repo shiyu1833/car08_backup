@@ -1,0 +1,10 @@
+<CycloneDDS>
+  <Domain>
+    <General>
+      <AllowMulticast>true</AllowMulticast>
+      <Interfaces>
+        <NetworkInterface name="wlan0" multicast="true"/>
+      </Interfaces>
+    </General>
+  </Domain>
+</CycloneDDS>

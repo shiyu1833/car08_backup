@@ -1,0 +1,28 @@
+1778554638.2441618 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-10-57-18-240855-car08-3836
+1778554638.2447433 [INFO] [launch]: Default logging verbosity is set to INFO
+1778554638.5125294 [INFO] [aicar_base-1]: process started with pid [3840]
+1778554638.5135674 [INFO] [aicar_imu-2]: process started with pid [3841]
+1778554638.5146382 [INFO] [aicar_odom-3]: process started with pid [3842]
+1778554639.0667424 [aicar_base-1] Traceback (most recent call last):
+1778554639.0690689 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778554639.0694849 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778554639.0697696 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554639.0700297 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 25, in importlib_load_entry_point
+1778554639.0702953 [aicar_base-1]     return next(matches).load()
+1778554639.0705698 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^
+1778554639.0708048 [aicar_base-1]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+1778554639.0725291 [aicar_base-1]     module = import_module(match.group('module'))
+1778554639.0728986 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554639.0731866 [aicar_base-1]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+1778554639.0755990 [aicar_base-1]     return _bootstrap._gcd_import(name[level:], package, level)
+1778554639.0793607 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554639.0824990 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+1778554639.0834017 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+1778554639.0863297 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+1778554639.0880768 [aicar_base-1] ModuleNotFoundError: No module named 'ai_car.aicar_base'
+1778554639.1929719 [ERROR] [aicar_base-1]: process has died [pid 3840, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778554641.0212984 [aicar_imu-2] [INFO] [1778554641.020041261] [aicar_imu]: IMU init OK
+1778554641.6051061 [aicar_odom-3] [INFO] [1778554641.604117418] [aicar_odom]: Waiting for /imu ...
+1778554741.6081331 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778554742.1236610 [INFO] [aicar_imu-2]: process has finished cleanly [pid 3841]
+1778554742.1245532 [INFO] [aicar_odom-3]: process has finished cleanly [pid 3842]

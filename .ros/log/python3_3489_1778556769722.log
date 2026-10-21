@@ -1,0 +1,367 @@
+[INFO] [1778556770.158174361] [aicar_base]: Connect U2D2 ...
+[INFO] [1778556770.165538452] [aicar_base]: [ OK ] AICAR start
+[INFO] [1778556815.789981293] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556816.189728789] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778556816.701768734] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778556817.549626164] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556818.957605243] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556819.357547402] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778556819.870058451] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556832.700110815] [aicar_base]: [ SET ] WHEEL : -12, -12
+[INFO] [1778556832.988273747] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1778556833.277358300] [aicar_base]: [ SET ] WHEEL : -50, -50
+[INFO] [1778556833.564241986] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778556834.636186189] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556836.156578832] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556836.446575878] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778556837.532010040] [aicar_base]: [ SET ] WHEEL : 75, -25
+[INFO] [1778556838.603794015] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556845.722652582] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556846.011865470] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778556846.185944505] [aicar_base]: [ SET ] WHEEL : 50, 50
+[INFO] [1778556846.474627399] [aicar_base]: [ SET ] WHEEL : 63, 63
+[INFO] [1778556846.762767993] [aicar_base]: [ SET ] WHEEL : 88, 88
+[INFO] [1778556847.050668618] [aicar_base]: [ SET ] WHEEL : 101, 101
+[INFO] [1778556847.339080854] [aicar_base]: [ SET ] WHEEL : 113, 113
+[INFO] [1778556847.738807090] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556848.026562458] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556864.105852605] [aicar_base]: [ SET ] WHEEL : 101, -101
+[INFO] [1778556864.506066040] [aicar_base]: [ SET ] WHEEL : 151, -151
+[INFO] [1778556865.130314423] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556866.201869026] [aicar_base]: [ SET ] WHEEL : -50, 50
+[INFO] [1778556866.713774674] [aicar_base]: [ SET ] WHEEL : -101, 101
+[INFO] [1778556868.457640814] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556870.426064462] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556870.430387617] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556870.809884317] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556870.812613921] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556871.529900238] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556871.532807940] [aicar_base]: [ SET ] ARM Joint : 0.00, 2.00
+[INFO] [1778556871.801573617] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556871.804789939] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556873.193579972] [aicar_base]: [ SET ] ARM Tool : 4.00
+[INFO] [1778556873.196524099] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556873.577556860] [aicar_base]: [ SET ] ARM Tool : 6.00
+[INFO] [1778556873.580307129] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556873.849896061] [aicar_base]: [ SET ] ARM Tool : 8.00
+[INFO] [1778556873.855300078] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556874.121726393] [aicar_base]: [ SET ] ARM Tool : 10.00
+[INFO] [1778556874.124557423] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556874.617945785] [aicar_base]: [ SET ] ARM Tool : 6.00
+[INFO] [1778556874.620769000] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556874.889624618] [aicar_base]: [ SET ] ARM Tool : 4.00
+[INFO] [1778556874.892856160] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556875.161722246] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556875.166326994] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556875.433843689] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556875.436478934] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556875.705532842] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556875.708420873] [aicar_base]: [ SET ] ARM Joint : 0.00, 6.00
+[INFO] [1778556876.201588280] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556876.204419345] [aicar_base]: [ SET ] ARM Joint : 0.00, 4.00
+[INFO] [1778556876.474146926] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556876.476971639] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556876.745621114] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556876.748555756] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556877.017824170] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556877.020595639] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556877.289744024] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556877.292565736] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556877.561603191] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556877.564357382] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556877.833776108] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556877.836523540] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556878.105577313] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556878.108380228] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556878.377553582] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556878.380313754] [aicar_base]: [ SET ] ARM Joint : 0.00, 0.00
+[INFO] [1778556878.761618515] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556878.764514062] [aicar_base]: [ SET ] ARM Joint : 2.00, 0.00
+[INFO] [1778556879.033677535] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556879.036642101] [aicar_base]: [ SET ] ARM Joint : 6.00, 0.00
+[INFO] [1778556880.649780871] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556880.652606599] [aicar_base]: [ SET ] ARM Joint : 6.00, 0.00
+[INFO] [1778556881.033781102] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556881.036604218] [aicar_base]: [ SET ] ARM Joint : 6.00, 0.00
+[INFO] [1778556881.530465000] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556881.533532364] [aicar_base]: [ SET ] ARM Joint : 6.00, 0.00
+[INFO] [1778556881.801669283] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556881.804920818] [aicar_base]: [ SET ] ARM Joint : 6.00, 2.00
+[INFO] [1778556882.299150961] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556882.301992687] [aicar_base]: [ SET ] ARM Joint : 6.00, 10.00
+[INFO] [1778556882.569619118] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556882.572422696] [aicar_base]: [ SET ] ARM Joint : 6.00, 26.00
+[INFO] [1778556882.842292411] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556882.844995319] [aicar_base]: [ SET ] ARM Joint : 6.00, 40.00
+[INFO] [1778556883.114206666] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556883.116920888] [aicar_base]: [ SET ] ARM Joint : 8.00, 40.00
+[INFO] [1778556883.610468849] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556883.613651233] [aicar_base]: [ SET ] ARM Joint : 16.00, 40.00
+[INFO] [1778556883.881452195] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556883.884374404] [aicar_base]: [ SET ] ARM Joint : 32.00, 40.00
+[INFO] [1778556884.153565949] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556884.157084785] [aicar_base]: [ SET ] ARM Joint : 48.00, 40.00
+[INFO] [1778556884.761903559] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556884.764789581] [aicar_base]: [ SET ] ARM Joint : 50.00, 40.00
+[INFO] [1778556885.033342581] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556885.036443923] [aicar_base]: [ SET ] ARM Joint : 54.00, 40.00
+[INFO] [1778556885.417448182] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556885.420367149] [aicar_base]: [ SET ] ARM Joint : 58.00, 40.00
+[INFO] [1778556885.689469293] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556885.692418094] [aicar_base]: [ SET ] ARM Joint : 60.00, 40.00
+[INFO] [1778556886.073528575] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556886.076312907] [aicar_base]: [ SET ] ARM Joint : 62.00, 40.00
+[INFO] [1778556886.345745013] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556886.348671628] [aicar_base]: [ SET ] ARM Joint : 64.00, 40.00
+[INFO] [1778556886.617727686] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556886.620613726] [aicar_base]: [ SET ] ARM Joint : 68.00, 40.00
+[INFO] [1778556887.337974651] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556887.341128530] [aicar_base]: [ SET ] ARM Joint : 68.00, 42.00
+[INFO] [1778556887.609420244] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556887.612328042] [aicar_base]: [ SET ] ARM Joint : 68.00, 46.00
+[INFO] [1778556888.218869709] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556888.221779525] [aicar_base]: [ SET ] ARM Joint : 68.00, 58.00
+[INFO] [1778556888.489880003] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556888.492635444] [aicar_base]: [ SET ] ARM Joint : 68.00, 76.00
+[INFO] [1778556888.761725208] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556888.764487668] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556889.033410250] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556889.036309232] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556889.305588454] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556889.308783572] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556889.577668451] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556889.580576210] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556889.849294122] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556889.852102823] [aicar_base]: [ SET ] ARM Joint : 68.00, 88.00
+[INFO] [1778556890.122232511] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556890.125296811] [aicar_base]: [ SET ] ARM Joint : 68.00, 86.00
+[INFO] [1778556890.393887544] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556890.396868156] [aicar_base]: [ SET ] ARM Joint : 68.00, 84.00
+[INFO] [1778556890.777308108] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556890.780178625] [aicar_base]: [ SET ] ARM Joint : 68.00, 82.00
+[INFO] [1778556891.497358965] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556891.500275186] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556891.769322793] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556891.772199049] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556892.041464501] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556892.044314979] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556892.537560929] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556892.540332367] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556892.810021760] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556892.813013574] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556893.082560180] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556893.085508992] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556893.465928281] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556893.468759257] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556893.961442285] [aicar_base]: [ SET ] ARM Tool : 16.00
+[INFO] [1778556893.964494433] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556894.233409673] [aicar_base]: [ SET ] ARM Tool : 32.00
+[INFO] [1778556894.236241149] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556894.505331641] [aicar_base]: [ SET ] ARM Tool : 40.00
+[INFO] [1778556894.508157950] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556894.777509819] [aicar_base]: [ SET ] ARM Tool : 38.00
+[INFO] [1778556894.780185642] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556895.275392369] [aicar_base]: [ SET ] ARM Tool : 26.00
+[INFO] [1778556895.278423774] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556895.432504766] [aicar_base]: [ SET ] ARM Tool : 16.00
+[INFO] [1778556895.435937773] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556895.706315752] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1778556895.709534217] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556895.977515214] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556895.980323854] [aicar_base]: [ SET ] ARM Joint : 68.00, 80.00
+[INFO] [1778556896.585476640] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556896.588224538] [aicar_base]: [ SET ] ARM Joint : 68.00, 78.00
+[INFO] [1778556896.857258682] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556896.860168380] [aicar_base]: [ SET ] ARM Joint : 68.00, 76.00
+[INFO] [1778556897.241415088] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556897.244294729] [aicar_base]: [ SET ] ARM Joint : 68.00, 78.00
+[INFO] [1778556897.737577104] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556897.741275652] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556898.009427620] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556898.014254544] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556898.281533692] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556898.284212957] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556898.553397407] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556898.556218342] [aicar_base]: [ SET ] ARM Joint : 68.00, 90.00
+[INFO] [1778556898.825589982] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556898.828477566] [aicar_base]: [ SET ] ARM Joint : 68.00, 88.00
+[INFO] [1778556899.321412303] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556899.324118993] [aicar_base]: [ SET ] ARM Joint : 68.00, 76.00
+[INFO] [1778556899.593129749] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556899.595969979] [aicar_base]: [ SET ] ARM Joint : 68.00, 60.00
+[INFO] [1778556899.866296561] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556899.868958787] [aicar_base]: [ SET ] ARM Joint : 68.00, 42.00
+[INFO] [1778556900.138673685] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556900.143663111] [aicar_base]: [ SET ] ARM Joint : 66.00, 40.00
+[INFO] [1778556900.633555602] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556900.636531742] [aicar_base]: [ SET ] ARM Joint : 58.00, 40.00
+[INFO] [1778556900.905498991] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556900.908847121] [aicar_base]: [ SET ] ARM Joint : 42.00, 40.00
+[INFO] [1778556901.177550535] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556901.180475173] [aicar_base]: [ SET ] ARM Joint : 24.00, 40.00
+[INFO] [1778556901.449526475] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556901.452380334] [aicar_base]: [ SET ] ARM Joint : 8.00, 40.00
+[INFO] [1778556901.721461932] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556901.725224292] [aicar_base]: [ SET ] ARM Joint : 2.00, 40.00
+[INFO] [1778556902.441768868] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556902.446318633] [aicar_base]: [ SET ] ARM Joint : 16.00, 40.00
+[INFO] [1778556902.713899454] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556902.716913574] [aicar_base]: [ SET ] ARM Joint : 32.00, 40.00
+[INFO] [1778556902.986031113] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556902.988832414] [aicar_base]: [ SET ] ARM Joint : 46.00, 40.00
+[INFO] [1778556903.257270642] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556903.260238039] [aicar_base]: [ SET ] ARM Joint : 44.00, 40.00
+[INFO] [1778556903.977177851] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556903.979920595] [aicar_base]: [ SET ] ARM Joint : 44.00, 38.00
+[INFO] [1778556904.473144922] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556904.476032427] [aicar_base]: [ SET ] ARM Joint : 44.00, 40.00
+[INFO] [1778556904.968992743] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556904.971880489] [aicar_base]: [ SET ] ARM Joint : 44.00, 48.00
+[INFO] [1778556905.241610037] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556905.244666748] [aicar_base]: [ SET ] ARM Joint : 44.00, 64.00
+[INFO] [1778556905.513760404] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556905.516777133] [aicar_base]: [ SET ] ARM Joint : 44.00, 66.00
+[INFO] [1778556905.785173275] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556905.788116373] [aicar_base]: [ SET ] ARM Joint : 44.00, 70.00
+[INFO] [1778556906.057809617] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556906.060807734] [aicar_base]: [ SET ] ARM Joint : 44.00, 72.00
+[INFO] [1778556906.332085190] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556906.336285091] [aicar_base]: [ SET ] ARM Joint : 44.00, 74.00
+[INFO] [1778556906.488137353] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556906.490618126] [aicar_base]: [ SET ] ARM Joint : 44.00, 76.00
+[INFO] [1778556906.761358479] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556906.764012570] [aicar_base]: [ SET ] ARM Joint : 44.00, 72.00
+[INFO] [1778556907.033180418] [aicar_base]: [ SET ] ARM Tool : 2.00
+[INFO] [1778556907.036017846] [aicar_base]: [ SET ] ARM Joint : 44.00, 70.00
+[INFO] [1778556907.529556858] [aicar_base]: [ SET ] WHEEL : -12, -12
+[INFO] [1778556907.818766912] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1778556908.217298416] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778556908.505144137] [aicar_base]: [ SET ] WHEEL : -75, -75
+[INFO] [1778556908.793683076] [aicar_base]: [ SET ] WHEEL : -101, -101
+[INFO] [1778556909.081279659] [aicar_base]: [ SET ] WHEEL : -126, -126
+[INFO] [1778556909.369352414] [aicar_base]: [ SET ] WHEEL : -138, -138
+[INFO] [1778556911.001240905] [aicar_base]: [ SET ] WHEEL : -151, -151
+[INFO] [1778556911.401283361] [aicar_base]: [ SET ] WHEEL : -164, -164
+[INFO] [1778556911.689760868] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778556911.977386100] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778556912.601763640] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556914.009305981] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556914.521407649] [aicar_base]: [ SET ] WHEEL : 63, 63
+[INFO] [1778556914.809241068] [aicar_base]: [ SET ] WHEEL : 176, 176
+[INFO] [1778556915.097386411] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556915.385536089] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556915.673640266] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556915.961840871] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556916.249473693] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556916.537191691] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556916.825297010] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556917.114564541] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556917.401432445] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556917.689307181] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556919.097752702] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556919.385573686] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556919.785165449] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778556920.187423576] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556920.473142892] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556920.873195072] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1778556921.161185326] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1778556921.449928853] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778556921.848997223] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556922.138076867] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556922.425928710] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1778556922.714642863] [aicar_base]: [ SET ] WHEEL : -50, -50
+[INFO] [1778556923.001204574] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778556923.289211786] [aicar_base]: [ SET ] WHEEL : -88, -88
+[INFO] [1778556923.576924808] [aicar_base]: [ SET ] WHEEL : -101, -101
+[INFO] [1778556923.865060800] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556924.264953322] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556924.553254054] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556924.840883108] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556925.130366101] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556925.417296142] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778556925.705030529] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778556926.329865072] [aicar_base]: [ SET ] WHEEL : 88, 88
+[INFO] [1778556926.617423546] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556926.905131689] [aicar_base]: [ SET ] WHEEL : 189, 189
+[INFO] [1778556927.417002736] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557004.982318811] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778557005.271569527] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778557005.558446581] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778557013.126413777] [aicar_base]: [ SET ] WHEEL : 50, 50
+[INFO] [1778557013.414334088] [aicar_base]: [ SET ] WHEEL : 63, 63
+[INFO] [1778557013.702079974] [aicar_base]: [ SET ] WHEEL : 88, 88
+[INFO] [1778557014.101944750] [aicar_base]: [ SET ] WHEEL : 101, 101
+[INFO] [1778557014.389930062] [aicar_base]: [ SET ] WHEEL : 113, 113
+[INFO] [1778557014.789857819] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557015.077820617] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557015.477932927] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557015.766269312] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778557016.165737280] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557016.453918223] [aicar_base]: [ SET ] WHEEL : -12, -12
+[INFO] [1778557016.853994514] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778557017.142284616] [aicar_base]: [ SET ] WHEEL : -151, -151
+[INFO] [1778557017.429656306] [aicar_base]: [ SET ] WHEEL : -164, -164
+[INFO] [1778557017.717744030] [aicar_base]: [ SET ] WHEEL : -176, -176
+[INFO] [1778557019.349777866] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557019.973658244] [aicar_base]: [ SET ] WHEEL : -50, 50
+[INFO] [1778557020.486106133] [aicar_base]: [ SET ] WHEEL : -200, 200
+[INFO] [1778557020.773587312] [aicar_base]: [ SET ] WHEEL : -200, 200
+[INFO] [1778557021.066574574] [aicar_base]: [ SET ] WHEEL : -200, 200
+[INFO] [1778557021.349390765] [aicar_base]: [ SET ] WHEEL : -200, 200
+[INFO] [1778557022.981645733] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557023.941772575] [aicar_base]: [ SET ] WHEEL : 50, -50
+[INFO] [1778557024.454738037] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557024.742177987] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557025.029471617] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557025.317316438] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557025.606479972] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557025.893558446] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557026.518078264] [aicar_base]: [ SET ] WHEEL : 50, -50
+[INFO] [1778557026.805683276] [aicar_base]: [ SET ] WHEEL : -200, 200
+[INFO] [1778557027.093461769] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557027.605667948] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778557028.005456842] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778557028.293400896] [aicar_base]: [ SET ] WHEEL : 50, 50
+[INFO] [1778557028.805358448] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778557029.093364448] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778557029.493431290] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557029.781624050] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1778557030.181510065] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1778557031.030380384] [aicar_base]: [ SET ] WHEEL : -50, -50
+[INFO] [1778557031.317025998] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778557031.717128939] [aicar_base]: [ SET ] WHEEL : -138, -138
+[INFO] [1778557032.006234033] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557032.293216558] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557032.581599107] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557032.869474458] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557033.157533353] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557033.332130810] [aicar_base]: [ SET ] WHEEL : -189, -189
+[INFO] [1778557033.621333247] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557033.909019012] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557034.197167034] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557034.485162690] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557034.772814071] [aicar_base]: [ SET ] WHEEL : 50, -50
+[INFO] [1778557035.285761560] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557035.460232939] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557035.749635069] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557035.923852635] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557036.548999173] [aicar_base]: [ SET ] WHEEL : 200, -200
+[INFO] [1778557036.948938118] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557037.348947168] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557037.636934526] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557038.037044653] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778557038.324790649] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1778557038.613173083] [aicar_base]: [ SET ] WHEEL : 50, 50
+[INFO] [1778557039.460784674] [aicar_base]: [ SET ] WHEEL : 37, 37
+[INFO] [1778557039.748865211] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1778557040.037120998] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557040.324809822] [aicar_base]: [ SET ] WHEEL : -25, -25
+[INFO] [1778557040.612823643] [aicar_base]: [ SET ] WHEEL : -37, -37
+[INFO] [1778557041.460682369] [aicar_base]: [ SET ] WHEEL : -50, -50
+[INFO] [1778557041.748735029] [aicar_base]: [ SET ] WHEEL : -63, -63
+[INFO] [1778557042.036676055] [aicar_base]: [ SET ] WHEEL : -88, -88
+[INFO] [1778557042.436743347] [aicar_base]: [ SET ] WHEEL : -101, -101
+[INFO] [1778557042.724662626] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557043.012645700] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557043.636570360] [aicar_base]: [ SET ] WHEEL : 0, 0
+[INFO] [1778557071.815385279] [aicar_base]: [ SET ] WHEEL : 0, 0

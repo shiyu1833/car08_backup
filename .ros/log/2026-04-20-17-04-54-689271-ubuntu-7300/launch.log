@@ -1,0 +1,9 @@
+1776675894.6926680 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-20-17-04-54-689271-ubuntu-7300
+1776675894.6932726 [INFO] [launch]: Default logging verbosity is set to INFO
+1776675894.9634871 [INFO] [aicar_base-1]: process started with pid [7323]
+1776675894.9646316 [INFO] [aicar_imu-2]: process started with pid [7324]
+1776675894.9656150 [INFO] [aicar_odom-3]: process started with pid [7325]
+1776675906.4679074 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776675907.7862566 [INFO] [aicar_imu-2]: process has finished cleanly [pid 7324]
+1776675907.7955461 [INFO] [aicar_odom-3]: process has finished cleanly [pid 7325]
+1776675910.7299256 [INFO] [aicar_base-1]: process has finished cleanly [pid 7323]

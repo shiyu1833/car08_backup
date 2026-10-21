@@ -1,0 +1,16 @@
+1777340655.3627803 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-28-09-44-15-359520-car25-1432
+1777340655.3633707 [INFO] [launch]: Default logging verbosity is set to INFO
+1777340655.6617115 [INFO] [aicar_base-1]: process started with pid [1435]
+1777340655.6636012 [INFO] [aicar_imu-2]: process started with pid [1436]
+1777340655.6673579 [INFO] [aicar_odom-3]: process started with pid [1437]
+1777340655.6681702 [INFO] [camera_node-4]: process started with pid [1438]
+1777340655.6687689 [INFO] [rplidar_composition-5]: process started with pid [1439]
+1777340732.1447144 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1777340733.2707381 [INFO] [camera_node-4]: process has finished cleanly [pid 1438]
+1777340733.4636724 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1777340733.4804571 [ERROR] [aicar_imu-2]: process has died [pid 1436, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu --ros-args -r __node:=aicar_imu'].
+1777340733.8321753 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1777340733.8494384 [ERROR] [aicar_base-1]: process has died [pid 1435, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args -r __node:=aicar_base'].
+1777340734.0612955 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1777340734.4029791 [ERROR] [aicar_odom-3]: process has died [pid 1437, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args -r __node:=aicar_odom'].
+1777340734.8080757 [INFO] [rplidar_composition-5]: process has finished cleanly [pid 1439]

@@ -1,0 +1,14 @@
+1776678362.5497928 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-20-17-46-02-546330-ubuntu-8697
+1776678362.5503414 [INFO] [launch]: Default logging verbosity is set to INFO
+1776678362.8400917 [INFO] [aicar_base-1]: process started with pid [8700]
+1776678362.8444107 [INFO] [aicar_imu-2]: process started with pid [8701]
+1776678362.8483648 [INFO] [aicar_odom-3]: process started with pid [8702]
+1776678362.8490322 [INFO] [camera_node-4]: process started with pid [8703]
+1776678362.8499925 [INFO] [rplidar_composition-5]: process started with pid [8704]
+1776679491.6165121 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776679492.7361670 [INFO] [camera_node-4]: process has finished cleanly [pid 8703]
+1776679493.0271654 [INFO] [aicar_imu-2]: process has finished cleanly [pid 8701]
+1776679493.2888465 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776679493.8722024 [ERROR] [aicar_odom-3]: process has died [pid 8702, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args -r __node:=aicar_odom'].
+1776679494.3375511 [INFO] [rplidar_composition-5]: process has finished cleanly [pid 8704]
+1776679494.5346699 [ERROR] [aicar_base-1]: process has died [pid 8700, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args -r __node:=aicar_base'].

@@ -1,0 +1,91 @@
+1778654913.1899483 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-13-14-48-33-182050-car08-57178
+1778654913.1910598 [INFO] [launch]: Default logging verbosity is set to INFO
+1778654913.9986589 [INFO] [aicar_base-1]: process started with pid [57220]
+1778654913.9998655 [INFO] [aicar_imu-2]: process started with pid [57221]
+1778654914.0007904 [INFO] [aicar_odom-3]: process started with pid [57222]
+1778654914.0079567 [INFO] [rplidar_composition-4]: process started with pid [57223]
+1778654914.0093555 [INFO] [camera_node-5]: process started with pid [57224]
+1778654919.9668231 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778654920.1553214 [aicar_odom-3] Traceback (most recent call last):
+1778654920.1566882 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom", line 33, in <module>
+1778654920.1578920 [aicar_odom-3]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_odom')())
+1778654920.1590788 [aicar_odom-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1605020 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom", line 25, in importlib_load_entry_point
+1778654920.1613953 [aicar_odom-3]     return next(matches).load()
+1778654920.1622267 [aicar_odom-3]            ^^^^^^^^^^^^^^^^^^^^
+1778654920.1633484 [aicar_odom-3]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+1778654920.1644285 [aicar_odom-3]     module = import_module(match.group('module'))
+1778654920.1652553 [aicar_odom-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1659596 [aicar_odom-3]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+1778654920.1667643 [aicar_odom-3]     return _bootstrap._gcd_import(name[level:], package, level)
+1778654920.1677990 [aicar_odom-3]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1688321 [aicar_odom-3]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+1778654920.1706216 [aicar_odom-3]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+1778654920.1735044 [aicar_odom-3]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+1778654920.1746168 [aicar_odom-3]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+1778654920.1755056 [aicar_odom-3]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+1778654920.1764700 [aicar_odom-3]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+1778654920.1776967 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 8, in <module>
+1778654920.1790454 [aicar_odom-3]     from geometry_msgs.msg import TransformStamped
+1778654920.1800852 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/geometry_msgs/msg/__init__.py", line 17, in <module>
+1778654920.1809392 [aicar_odom-3]     from geometry_msgs.msg._pose_stamped import PoseStamped  # noqa: F401
+1778654920.1819966 [aicar_odom-3]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1828971 [aicar_odom-3] KeyboardInterrupt
+1778654920.1855636 [aicar_imu-2] Traceback (most recent call last):
+1778654920.1868322 [aicar_imu-2]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu", line 33, in <module>
+1778654920.1879332 [aicar_imu-2]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_imu')())
+1778654920.1890872 [aicar_imu-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1901259 [aicar_imu-2]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_imu.py", line 95, in main
+1778654920.1914005 [aicar_imu-2]     node = AICAR_IMU()
+1778654920.1924565 [aicar_imu-2]            ^^^^^^^^^^^
+1778654920.1935885 [aicar_imu-2]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_imu.py", line 28, in __init__
+1778654920.1949260 [aicar_imu-2]     super().__init__('aicar_imu')
+1778654920.1962729 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 246, in __init__
+1778654920.1972888 [aicar_imu-2]     self._type_description_service = TypeDescriptionService(self)
+1778654920.1986077 [aicar_imu-2]                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.1999180 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_description_service.py", line 74, in __init__
+1778654920.2012928 [aicar_imu-2]     self._start_service()
+1778654920.2026079 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_description_service.py", line 87, in _start_service
+1778654920.2038119 [aicar_imu-2]     check_is_valid_srv_type(GetTypeDescription)
+1778654920.2049673 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_support.py", line 51, in check_is_valid_srv_type
+1778654920.2059660 [aicar_imu-2]     check_for_type_support(srv_type)
+1778654920.2072828 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_support.py", line 29, in check_for_type_support
+1778654920.2084827 [aicar_imu-2]     msg_or_srv_type.__class__.__import_type_support__()
+1778654920.2097981 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/type_description_interfaces/srv/_get_type_description.py", line 657, in __import_type_support__
+1778654920.2109361 [aicar_imu-2]     _get_type_description.Metaclass_GetTypeDescription_Response.__import_type_support__()
+1778654920.2135098 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/type_description_interfaces/srv/_get_type_description.py", line 229, in __import_type_support__
+1778654920.2154233 [aicar_imu-2]     from type_description_interfaces.msg import KeyValue
+1778654920.2189777 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/type_description_interfaces/msg/__init__.py", line 2, in <module>
+1778654920.2203517 [aicar_imu-2]     from type_description_interfaces.msg._field_type import FieldType  # noqa: F401
+1778654920.2214873 [aicar_imu-2]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.2230325 [aicar_imu-2] KeyboardInterrupt
+1778654920.2269578 [aicar_base-1] Traceback (most recent call last):
+1778654920.2283330 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778654920.2331009 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778654920.2360632 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778654920.2375643 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 227, in main
+1778654920.2389448 [aicar_base-1]     node = AICAR_BASE()
+1778654920.2402775 [aicar_base-1]            ^^^^^^^^^^^^
+1778654920.2413118 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 44, in __init__
+1778654920.2426124 [aicar_base-1]     super().__init__('aicar_base')
+1778654920.2436531 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 212, in __init__
+1778654920.2446914 [aicar_base-1]     self._parameter_event_publisher = self.create_publisher(
+1778654920.2487068 [aicar_base-1]                                       ^^^^^^^^^^^^^^^^^^^^^^
+1778654920.2509913 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1557, in create_publisher
+1778654920.2524798 [aicar_base-1]     check_is_valid_msg_type(msg_type)
+1778654920.2535810 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_support.py", line 35, in check_is_valid_msg_type
+1778654920.2545962 [aicar_base-1]     check_for_type_support(msg_type)
+1778654920.2555883 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/type_support.py", line 29, in check_for_type_support
+1778654920.2566195 [aicar_base-1]     msg_or_srv_type.__class__.__import_type_support__()
+1778654920.2578351 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rcl_interfaces/msg/_parameter_event.py", line 35, in __import_type_support__
+1778654920.2593393 [aicar_base-1]     from rosidl_generator_py import import_type_support
+1778654920.2607121 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py", line 23, in <module>
+1778654920.2620654 [aicar_base-1]     from .generate_py_impl import generate_py
+1778654920.2630789 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py", line 35, in <module>
+1778654920.2641516 [aicar_base-1]     from rosidl_parser.parser import parse_idl_file
+1778654920.2654274 [aicar_base-1] KeyboardInterrupt
+1778654920.5138605 [ERROR] [aicar_odom-3]: process has died [pid 57222, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args'].
+1778654920.5353968 [INFO] [camera_node-5]: process has finished cleanly [pid 57224]
+1778654920.5951076 [ERROR] [aicar_base-1]: process has died [pid 57220, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778654920.6608784 [INFO] [rplidar_composition-4]: process has finished cleanly [pid 57223]
+1778654920.7251112 [ERROR] [aicar_imu-2]: process has died [pid 57221, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu --ros-args'].

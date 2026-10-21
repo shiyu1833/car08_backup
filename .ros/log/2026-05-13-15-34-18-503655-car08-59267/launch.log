@@ -1,0 +1,151 @@
+1778657658.5254912 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-13-15-34-18-503655-car08-59267
+1778657658.5268078 [INFO] [launch]: Default logging verbosity is set to INFO
+1778657659.9967320 [INFO] [aicar_base-1]: process started with pid [59323]
+1778657660.0164633 [INFO] [aicar_imu-2]: process started with pid [59324]
+1778657660.0177696 [INFO] [aicar_odom-3]: process started with pid [59326]
+1778657660.0221314 [INFO] [rplidar_composition-4]: process started with pid [59328]
+1778657660.0362203 [INFO] [camera_node-5]: process started with pid [59330]
+1778657668.4529667 [ERROR] [camera_node-5]: process has died [pid 59330, exit code -6, cmd '/home/ubuntu/camera_ws/install/camera_ros/lib/camera_ros/camera_node --ros-args -r __node:=camera --params-file /tmp/launch_params_vda4fd3z'].
+1778657672.8566344 [aicar_base-1] [INFO] [1778657672.849365705] [aicar_base]: Connect U2D2 ...
+1778657672.8708856 [aicar_base-1] [INFO] [1778657672.867975006] [aicar_base]: [ OK ] AICAR start
+1778657673.0520658 [aicar_odom-3] [INFO] [1778657673.049660269] [aicar_odom]: Waiting for /imu ...
+1778657673.5033100 [aicar_imu-2] [INFO] [1778657673.500752442] [aicar_imu]: IMU init OK
+1778657687.4595487 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778657687.8155651 [aicar_odom-3] 1.492724724
+1778657687.8167446 [aicar_odom-3] 0.122771125
+1778657687.8225238 [aicar_odom-3] 0.098172552
+1778657687.8232601 [aicar_odom-3] 0.115991129
+1778657687.8238232 [aicar_odom-3] 0.115633524
+1778657687.8243384 [aicar_odom-3] 0.114984222
+1778657687.8248355 [aicar_odom-3] 0.119222454
+1778657687.8257833 [aicar_odom-3] 0.112735618
+1778657687.8275025 [aicar_odom-3] 0.114975556
+1778657687.8282790 [aicar_odom-3] 0.108553996
+1778657687.8288801 [aicar_odom-3] 0.114987482
+1778657687.8296237 [aicar_odom-3] 0.11467145
+1778657687.8307035 [aicar_odom-3] 0.113012669
+1778657687.8312774 [aicar_odom-3] 0.119927643
+1778657687.8318276 [aicar_odom-3] 0.102258065
+1778657687.8324053 [aicar_odom-3] 0.127687195
+1778657687.8328574 [aicar_odom-3] 0.1042491
+1778657687.8366611 [aicar_odom-3] 0.124380982
+1778657687.8375361 [aicar_odom-3] 0.121394707
+1778657687.8382704 [aicar_odom-3] 0.111635159
+1778657687.8388705 [aicar_odom-3] 0.109671252
+1778657687.8398261 [aicar_odom-3] 0.183286603
+1778657687.8405292 [aicar_odom-3] 0.106425871
+1778657687.8410263 [aicar_odom-3] 0.128530994
+1778657687.8420391 [aicar_odom-3] 0.111855228
+1778657687.8427057 [aicar_odom-3] 0.12404234
+1778657687.8432701 [aicar_odom-3] 0.107607108
+1778657687.8439829 [aicar_odom-3] 0.10143147
+1778657687.8447633 [aicar_odom-3] 0.11601511
+1778657687.8454983 [aicar_odom-3] 0.115008018
+1778657687.8461158 [aicar_odom-3] 0.132103904
+1778657687.8466690 [aicar_odom-3] 0.110104504
+1778657687.8471291 [aicar_odom-3] 0.119378025
+1778657687.8476717 [aicar_odom-3] 0.101266417
+1778657687.8481236 [aicar_odom-3] 0.108166394
+1778657687.8486860 [aicar_odom-3] 0.109833693
+1778657687.8491120 [aicar_odom-3] 0.117988201
+1778657687.8496051 [aicar_odom-3] 0.108236077
+1778657687.8501229 [aicar_odom-3] 0.111925782
+1778657687.8508148 [aicar_odom-3] 0.120622538
+1778657687.8513405 [aicar_odom-3] 0.104081659
+1778657687.8519614 [aicar_odom-3] 0.113237478
+1778657687.8526921 [aicar_odom-3] 0.110943358
+1778657687.8532350 [aicar_odom-3] 0.111791377
+1778657687.8537636 [aicar_odom-3] 0.114296014
+1778657687.8548055 [aicar_odom-3] 0.10537567
+1778657687.8557503 [aicar_odom-3] 0.114981649
+1778657687.8562565 [aicar_odom-3] 0.114608304
+1778657687.8567069 [aicar_odom-3] 0.114088814
+1778657687.8571315 [aicar_odom-3] 0.108004859
+1778657687.8582802 [aicar_odom-3] 0.111885895
+1778657687.8589835 [aicar_odom-3] 0.11193556
+1778657687.8597667 [aicar_odom-3] 0.115324178
+1778657687.8608787 [aicar_odom-3] 0.105747237
+1778657687.8615503 [aicar_odom-3] 0.113498474
+1778657687.8640101 [aicar_odom-3] 0.109617587
+1778657687.8656342 [aicar_odom-3] 0.119375303
+1778657687.8668458 [aicar_odom-3] 0.108779363
+1778657687.8678281 [aicar_odom-3] 0.119731462
+1778657687.8684318 [aicar_odom-3] 0.106049306
+1778657687.8689294 [aicar_odom-3] 0.113873244
+1778657687.8694820 [aicar_odom-3] 0.106272097
+1778657687.8701262 [aicar_odom-3] 0.11483393
+1778657687.8708785 [aicar_odom-3] 0.110532791
+1778657687.8715625 [aicar_odom-3] 0.111160131
+1778657687.8720074 [aicar_odom-3] 0.112253313
+1778657687.8725259 [aicar_odom-3] 0.11454262
+1778657687.8729830 [aicar_odom-3] 0.109518774
+1778657687.8735726 [aicar_odom-3] 0.114558379
+1778657687.8746703 [aicar_odom-3] 0.107003305
+1778657687.8753231 [aicar_odom-3] 0.113526585
+1778657687.8796158 [aicar_odom-3] 0.114938705
+1778657687.8812811 [aicar_odom-3] 0.110199168
+1778657687.8819914 [aicar_odom-3] 0.109219965
+1778657687.8825836 [aicar_odom-3] 0.113203517
+1778657687.8833034 [aicar_odom-3] 0.112561178
+1778657687.8842494 [aicar_odom-3] 0.131825706
+1778657687.8848400 [aicar_odom-3] 0.116300678
+1778657687.8859048 [aicar_odom-3] 0.116164033
+1778657687.8888881 [aicar_odom-3] 0.101403489
+1778657687.8896933 [aicar_odom-3] 0.115607803
+1778657687.8903170 [aicar_odom-3] 0.1067207
+1778657687.8908505 [aicar_odom-3] 0.11094145
+1778657687.8921006 [aicar_odom-3] 0.115552674
+1778657687.8928120 [aicar_odom-3] 0.11004419
+1778657687.8948264 [aicar_odom-3] 0.11025726
+1778657687.8956156 [aicar_odom-3] 0.111784119
+1778657687.8963907 [aicar_odom-3] 0.115183718
+1778657687.8973615 [aicar_odom-3] 0.112914541
+1778657687.8980019 [aicar_odom-3] 0.111951338
+1778657687.8989804 [aicar_odom-3] 0.109765566
+1778657687.9025960 [aicar_odom-3] 0.120066789
+1778657687.9035192 [aicar_odom-3] 0.103690371
+1778657687.9040704 [aicar_odom-3] 0.116735966
+1778657687.9046252 [aicar_odom-3] 0.117685039
+1778657687.9050441 [aicar_odom-3] 0.104219786
+1778657687.9055388 [aicar_odom-3] 0.114095389
+1778657687.9059470 [aicar_odom-3] 0.106670682
+1778657687.9107647 [aicar_odom-3] 0.117002423
+1778657687.9115112 [aicar_odom-3] 0.113466697
+1778657687.9120095 [aicar_odom-3] 0.110719918
+1778657687.9126089 [aicar_odom-3] 0.108910786
+1778657687.9132161 [aicar_odom-3] 0.112343571
+1778657687.9137800 [aicar_odom-3] 0.109578625
+1778657687.9145401 [aicar_odom-3] 0.121773275
+1778657687.9153512 [aicar_odom-3] 0.104199693
+1778657687.9158914 [aicar_odom-3] 0.112333423
+1778657687.9164121 [aicar_odom-3] 0.115324216
+1778657687.9168930 [aicar_odom-3] 0.109045302
+1778657687.9175956 [aicar_odom-3] 0.11334207
+1778657687.9227607 [aicar_odom-3] 0.109598106
+1778657687.9236491 [aicar_odom-3] 0.11522607
+1778657687.9253895 [aicar_odom-3] 0.119917015
+1778657687.9264848 [aicar_odom-3] 0.101279955
+1778657688.4462752 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657688.4542761 [aicar_base-1] Exiting ...
+1778657688.4552267 [INFO] [aicar_odom-3]: process has finished cleanly [pid 59326]
+1778657688.4579380 [aicar_base-1] Traceback (most recent call last):
+1778657688.4590504 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778657688.4610848 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778657688.4628990 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778657688.4658062 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 233, in main
+1778657688.4727037 [aicar_base-1]     node.fn_shutdown()
+1778657688.4803233 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 220, in fn_shutdown
+1778657688.4818983 [aicar_base-1]     time.sleep(3)
+1778657688.4858928 [aicar_base-1] KeyboardInterrupt
+1778657688.4966118 [INFO] [aicar_imu-2]: process has finished cleanly [pid 59324]
+1778657688.8706217 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657688.9056959 [ERROR] [aicar_base-1]: process has died [pid 59323, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778657689.1024840 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657689.3290808 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657689.5285201 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657689.7112780 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657689.8798671 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657690.0954320 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657690.2894173 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778657692.4878287 [ERROR] [rplidar_composition-4]: process[rplidar_composition-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1778657692.4931183 [INFO] [rplidar_composition-4]: sending signal 'SIGTERM' to process[rplidar_composition-4]

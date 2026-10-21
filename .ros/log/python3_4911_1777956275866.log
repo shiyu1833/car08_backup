@@ -1,0 +1,5 @@
+[INFO] [1777956276.169484543] [aicar_base]: Connect U2D2 ...
+[INFO] [1777956276.175596116] [aicar_base]: [OK] AICAR start
+[INFO] [1777956285.034270884] [aicar_base]: [ SET ] WHEEL : 12, 12
+[INFO] [1777956287.267829096] [aicar_base]: [ SET ] WHEEL : 25, 25
+[INFO] [1777956289.522421386] [aicar_base]: [ SET ] WHEEL : 0, 0

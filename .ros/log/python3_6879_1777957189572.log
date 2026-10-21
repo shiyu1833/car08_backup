@@ -1,0 +1,7 @@
+[INFO] [1777957191.325930447] [aicar_teleop]: [ WHEEL ] linear : 0.01, angular : 0.00
+[INFO] [1777957191.562544075] [aicar_teleop]: [ WHEEL ] linear : 0.02, angular : 0.00
+[INFO] [1777957191.837069234] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 0.00
+[INFO] [1777957192.737062770] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 0.50
+[INFO] [1777957192.970084057] [aicar_teleop]: [ WHEEL ] linear : 0.03, angular : 1.00
+[INFO] [1777957194.356094755] [aicar_teleop]: [ ARM ] J1 : 0, J2 : 0, tool : 0
+[INFO] [1777957194.360186456] [aicar_teleop]: [ WHEEL ] linear : 0.00, angular : 0.00

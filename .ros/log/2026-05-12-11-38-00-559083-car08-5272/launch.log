@@ -1,0 +1,91 @@
+1778557080.5636072 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-11-38-00-559083-car08-5272
+1778557080.5643904 [INFO] [launch]: Default logging verbosity is set to INFO
+1778557080.9814489 [INFO] [aicar_base-1]: process started with pid [5299]
+1778557080.9862998 [INFO] [aicar_imu-2]: process started with pid [5300]
+1778557080.9905918 [INFO] [aicar_odom-3]: process started with pid [5301]
+1778557083.8945155 [aicar_odom-3] [INFO] [1778557083.890835878] [aicar_odom]: Waiting for /imu ...
+1778557085.0291252 [aicar_imu-2] [INFO] [1778557085.028105097] [aicar_imu]: IMU init OK
+1778557085.4661443 [aicar_base-1] [INFO] [1778557085.464469127] [aicar_base]: Connect U2D2 ...
+1778557085.4730198 [aicar_base-1] [INFO] [1778557085.470932390] [aicar_base]: [ OK ] AICAR start
+1778557087.0235360 [aicar_base-1] Traceback (most recent call last):
+1778557087.0241923 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778557087.0247786 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778557087.0253246 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557087.0289335 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 227, in main
+1778557087.0294974 [aicar_base-1]     node = AICAR_BASE()
+1778557087.0300281 [aicar_base-1]            ^^^^^^^^^^^^
+1778557087.0304449 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 57, in __init__
+1778557087.0309253 [aicar_base-1]     self.wheel = Wheel_Controller(self.dxl_port)
+1778557087.0314269 [aicar_base-1]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557087.0333626 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_wheel.py", line 34, in __init__
+1778557087.0338783 [aicar_base-1]     self.reset()
+1778557087.0343821 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_wheel.py", line 39, in reset
+1778557087.0360672 [aicar_base-1]     self.packet.write1ByteTxRx(self.port, LEFT_ID, XM_OPERATING_MODE_ADDRESS, int(3))
+1778557087.0368562 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py", line 428, in write1ByteTxRx
+1778557087.0374277 [aicar_base-1]     return self.writeTxRx(port, dxl_id, address, 1, data_write)
+1778557087.0380347 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557087.0385518 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py", line 418, in writeTxRx
+1778557087.0431759 [aicar_base-1]     rxpacket, result, error = self.txRxPacket(port, txpacket)
+1778557087.0437171 [aicar_base-1]                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557087.0441673 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py", line 231, in txRxPacket
+1778557087.0446537 [aicar_base-1]     rxpacket, result = self.rxPacket(port)
+1778557087.0452113 [aicar_base-1]                        ^^^^^^^^^^^^^^^^^^^
+1778557087.0457313 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py", line 139, in rxPacket
+1778557087.0462451 [aicar_base-1]     rxpacket.extend(port.readPort(wait_length - rx_length))
+1778557087.0467765 [aicar_base-1]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557087.0472801 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py", line 78, in readPort
+1778557087.0536175 [aicar_base-1]     return self.ser.read(length)
+1778557087.0554161 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^^
+1778557087.0560927 [aicar_base-1]   File "/usr/lib/python3/dist-packages/serial/serialposix.py", line 595, in read
+1778557087.0577850 [aicar_base-1]     raise SerialException(
+1778557087.0583675 [aicar_base-1] serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+1778557087.6171114 [ERROR] [aicar_base-1]: process has died [pid 5299, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778557099.2659357 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778557099.4749591 [aicar_odom-3] 0.099528575
+1778557099.4752822 [aicar_odom-3] 0.110865171
+1778557099.4754920 [aicar_odom-3] 0.112225
+1778557099.4756806 [aicar_odom-3] 0.114931232
+1778557099.4759181 [aicar_odom-3] 0.106878439
+1778557099.4760988 [aicar_odom-3] 0.118882371
+1778557099.4762578 [aicar_odom-3] 0.110594341
+1778557099.4764493 [aicar_odom-3] 0.110381752
+1778557099.4766431 [aicar_odom-3] 0.127349823
+1778557099.4771860 [aicar_odom-3] 0.11153712
+1778557099.4774208 [aicar_odom-3] 0.117323639
+1778557099.4775734 [aicar_odom-3] 0.109757209
+1778557099.4777703 [aicar_odom-3] 0.110816951
+1778557099.4779892 [aicar_odom-3] 0.109693692
+1778557099.4782300 [aicar_odom-3] 0.110303534
+1778557099.4784720 [aicar_odom-3] 0.110571288
+1778557099.4786294 [aicar_odom-3] 0.110882524
+1778557099.4788899 [aicar_odom-3] 0.113871048
+1778557099.4790759 [aicar_odom-3] 0.108754446
+1778557099.4792681 [aicar_odom-3] 0.112847272
+1778557099.4794815 [aicar_odom-3] 0.113927068
+1778557099.4797943 [aicar_odom-3] 0.110993173
+1778557099.4801142 [aicar_odom-3] 0.115444098
+1778557099.4803636 [aicar_odom-3] 0.142953692
+1778557099.6892653 [aicar_odom-3] Traceback (most recent call last):
+1778557099.6897712 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom", line 33, in <module>
+1778557099.6903889 [aicar_odom-3]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_odom')())
+1778557099.6909380 [aicar_odom-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557099.6913552 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 177, in main
+1778557099.6918573 [aicar_odom-3]     rclpy.spin(node)
+1778557099.6924787 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+1778557099.6943922 [aicar_odom-3]     executor.spin_once()
+1778557099.6953156 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 923, in spin_once
+1778557099.6976118 [aicar_odom-3]     self._spin_once_impl(timeout_sec)
+1778557099.6989567 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 915, in _spin_once_impl
+1778557099.7000344 [aicar_odom-3]     raise handler.exception()
+1778557099.7008061 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 286, in _execute_coroutine_step
+1778557099.7016406 [aicar_odom-3]     result = coro.send(None)
+1778557099.7023602 [aicar_odom-3]              ^^^^^^^^^^^^^^^
+1778557099.7029943 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 584, in handler
+1778557099.7042937 [aicar_odom-3]     call_coroutine = take_from_wait_list(entity)
+1778557099.7051311 [aicar_odom-3]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557099.7060869 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 470, in _take_subscription
+1778557099.7081735 [aicar_odom-3]     msg_info = sub.handle.take_message(sub.msg_type, sub.raw)
+1778557099.7095711 [aicar_odom-3]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778557099.7108934 [aicar_odom-3] RuntimeError: Unable to convert call argument '0' to Python object (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+1778557099.9029350 [INFO] [aicar_imu-2]: process has finished cleanly [pid 5300]
+1778557100.0554128 [ERROR] [aicar_odom-3]: process has died [pid 5301, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args'].

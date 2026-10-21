@@ -1,0 +1,9 @@
+[INFO] [1776840227.766015788] [rplidar]: RPLIDAR running on ROS 2 package rplidar_ros. SDK Version: '1.12.0'
+[INFO] [1776840230.281196268] [rplidar]: RPLIDAR S/N: 42E7ED93C0EA98C9C2E29EF5B03D406E
+[INFO] [1776840230.281349657] [rplidar]: Firmware Ver: 1.29
+[INFO] [1776840230.281395879] [rplidar]: Hardware Rev: 7
+[INFO] [1776840230.282929564] [rplidar]: RPLidar health status : '0'
+[INFO] [1776840230.283052898] [rplidar]: Start
+[ERROR] [1776840232.826167341] [rplidar]: Cannot start scan: '80008000'
+[INFO] [1776840232.826341396] [rplidar]: Stop
+[ERROR] [1776840233.327520489] [rplidar]: Failed to set scan mode

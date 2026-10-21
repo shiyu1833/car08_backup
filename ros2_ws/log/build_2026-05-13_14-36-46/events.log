@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001065] (ai_car) JobQueued: {'identifier': 'ai_car', 'dependencies': OrderedDict()}
+[0.004427] (ai_car) JobStarted: {'identifier': 'ai_car'}
+[0.098208] (-) TimerEvent: {}
+[0.199494] (-) TimerEvent: {}
+[0.300893] (-) TimerEvent: {}
+[0.402163] (-) TimerEvent: {}
+[0.505086] (-) TimerEvent: {}
+[0.607212] (-) TimerEvent: {}
+[0.708540] (-) TimerEvent: {}
+[0.810012] (-) TimerEvent: {}
+[0.911577] (-) TimerEvent: {}
+[1.014092] (-) TimerEvent: {}
+[1.115895] (-) TimerEvent: {}
+[1.218476] (-) TimerEvent: {}
+[1.320837] (-) TimerEvent: {}
+[1.423420] (-) TimerEvent: {}
+[1.525852] (-) TimerEvent: {}
+[1.628370] (-) TimerEvent: {}
+[1.730815] (-) TimerEvent: {}
+[1.833232] (-) TimerEvent: {}
+[1.935747] (-) TimerEvent: {}
+[2.038190] (-) TimerEvent: {}
+[2.140653] (-) TimerEvent: {}
+[2.244831] (-) TimerEvent: {}
+[2.346149] (-) TimerEvent: {}
+[2.447427] (-) TimerEvent: {}
+[2.548621] (-) TimerEvent: {}
+[2.651145] (-) TimerEvent: {}
+[2.752875] (-) TimerEvent: {}
+[2.854481] (-) TimerEvent: {}
+[2.955735] (-) TimerEvent: {}
+[3.057001] (-) TimerEvent: {}
+[3.158202] (-) TimerEvent: {}
+[3.259523] (-) TimerEvent: {}
+[3.360740] (-) TimerEvent: {}
+[3.461927] (-) TimerEvent: {}
+[3.564032] (-) TimerEvent: {}
+[3.665514] (-) TimerEvent: {}
+[3.766913] (-) TimerEvent: {}
+[3.868257] (-) TimerEvent: {}
+[3.969551] (-) TimerEvent: {}
+[4.070962] (-) TimerEvent: {}
+[4.172424] (-) TimerEvent: {}
+[4.273631] (-) TimerEvent: {}
+[4.375075] (-) TimerEvent: {}
+[4.476525] (-) TimerEvent: {}
+[4.578460] (-) TimerEvent: {}
+[4.679950] (-) TimerEvent: {}
+[4.783445] (-) TimerEvent: {}
+[4.886479] (-) TimerEvent: {}
+[4.987638] (-) TimerEvent: {}
+[5.091546] (-) TimerEvent: {}
+[5.192854] (-) TimerEvent: {}
+[5.294408] (-) TimerEvent: {}
+[5.396832] (-) TimerEvent: {}
+[5.499455] (-) TimerEvent: {}
+[5.600743] (-) TimerEvent: {}
+[5.702095] (-) TimerEvent: {}
+[5.803440] (-) TimerEvent: {}
+[5.904566] (-) TimerEvent: {}
+[6.005717] (-) TimerEvent: {}
+[6.108803] (-) TimerEvent: {}
+[6.210437] (-) TimerEvent: {}
+[6.311738] (-) TimerEvent: {}
+[6.417109] (-) TimerEvent: {}
+[6.518427] (-) TimerEvent: {}
+[6.619623] (-) TimerEvent: {}
+[6.720827] (-) TimerEvent: {}
+[6.822405] (-) TimerEvent: {}
+[6.923737] (-) TimerEvent: {}
+[7.024992] (-) TimerEvent: {}
+[7.126416] (-) TimerEvent: {}
+[7.228491] (-) TimerEvent: {}
+[7.329589] (-) TimerEvent: {}
+[7.430868] (-) TimerEvent: {}
+[7.532406] (-) TimerEvent: {}
+[7.636251] (-) TimerEvent: {}
+[7.740642] (-) TimerEvent: {}
+[7.842540] (-) TimerEvent: {}
+[7.944568] (-) TimerEvent: {}
+[8.045929] (-) TimerEvent: {}
+[8.147117] (-) TimerEvent: {}
+[8.248392] (-) TimerEvent: {}
+[8.349527] (-) TimerEvent: {}
+[8.450972] (-) TimerEvent: {}
+[8.552221] (-) TimerEvent: {}
+[8.653538] (-) TimerEvent: {}
+[8.754987] (-) TimerEvent: {}
+[8.856224] (-) TimerEvent: {}
+[8.957507] (-) TimerEvent: {}
+[9.058721] (-) TimerEvent: {}
+[9.159934] (-) TimerEvent: {}
+[9.261296] (-) TimerEvent: {}
+[9.362725] (-) TimerEvent: {}
+[9.465804] (-) TimerEvent: {}
+[9.567575] (-) TimerEvent: {}
+[9.672942] (-) TimerEvent: {}
+[9.776628] (-) TimerEvent: {}
+[9.882813] (-) TimerEvent: {}
+[9.989602] (-) TimerEvent: {}
+[10.091865] (-) TimerEvent: {}
+[10.194545] (-) TimerEvent: {}
+[10.295784] (-) TimerEvent: {}
+[10.398060] (-) TimerEvent: {}
+[10.499796] (-) TimerEvent: {}
+[10.602794] (-) TimerEvent: {}
+[10.705835] (-) TimerEvent: {}
+[10.728680] (ai_car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ai_car', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/ai_car/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/ai_car/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/ai_car', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.117.1.192 14111 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-974500e64f0d1cfdf7c9821a2a51c2cb3bf0e561/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-974500e64f0d1cfdf7c9821a2a51c2cb3bf0e561/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.119.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4834ab8f-3a1a-43fb-9ac8-4b821382d09c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-974500e64f0d1cfdf7c9821a2a51c2cb3bf0e561/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-974500e64f0d1cfdf7c9821a2a51c2cb3bf0e561/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/camera_ws/install:/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '33', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-974500e64f0d1cfdf7c9821a2a51c2cb3bf0e561/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'CYCLONE_URI': '/home/ubuntu/cyclonedds.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-3c2d787af4f8c2ad.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/fe83b47cb8668c35511afcef20dfdfa2-1/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fa2eaf6e41.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '8', 'AMENT_PREFIX_PATH': '/home/ubuntu/camera_ws/install/camera_ros:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/ai_car', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera/ipa', 'SSH_CONNECTION': '10.117.1.192 14111 10.117.1.191 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/ai_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/camera_ws/install/camera_ros'}, 'shell': False}
+[10.806137] (-) TimerEvent: {}
+[10.907530] (-) TimerEvent: {}
+[11.008776] (-) TimerEvent: {}
+[11.110113] (-) TimerEvent: {}
+[11.211289] (-) TimerEvent: {}
+[11.312545] (-) TimerEvent: {}
+[11.413812] (-) TimerEvent: {}
+[11.514975] (-) TimerEvent: {}
+[11.616197] (-) TimerEvent: {}
+[11.717545] (-) TimerEvent: {}
+[11.818713] (-) TimerEvent: {}
+[11.919916] (-) TimerEvent: {}
+[12.021079] (-) TimerEvent: {}
+[12.122477] (-) TimerEvent: {}
+[12.223642] (-) TimerEvent: {}
+[12.324846] (-) TimerEvent: {}
+[12.426169] (-) TimerEvent: {}
+[12.527434] (-) TimerEvent: {}
+[12.628553] (-) TimerEvent: {}
+[12.729779] (-) TimerEvent: {}
+[12.831094] (-) TimerEvent: {}
+[12.932505] (-) TimerEvent: {}
+[13.033690] (-) TimerEvent: {}
+[13.134993] (-) TimerEvent: {}
+[13.236432] (-) TimerEvent: {}
+[13.337551] (-) TimerEvent: {}
+[13.438753] (-) TimerEvent: {}
+[13.540109] (-) TimerEvent: {}
+[13.641411] (-) TimerEvent: {}
+[13.743773] (-) TimerEvent: {}
+[13.845005] (-) TimerEvent: {}
+[13.946220] (-) TimerEvent: {}
+[14.047512] (-) TimerEvent: {}
+[14.074238] (ai_car) StdoutLine: {'line': b'running egg_info\n'}
+[14.147775] (-) TimerEvent: {}
+[14.249036] (-) TimerEvent: {}
+[14.318917] (ai_car) StdoutLine: {'line': b'writing ../../build/ai_car/ai_car.egg-info/PKG-INFO\n'}
+[14.321290] (ai_car) StdoutLine: {'line': b'writing dependency_links to ../../build/ai_car/ai_car.egg-info/dependency_links.txt\n'}
+[14.328380] (ai_car) StdoutLine: {'line': b'writing entry points to ../../build/ai_car/ai_car.egg-info/entry_points.txt\n'}
+[14.330647] (ai_car) StdoutLine: {'line': b'writing requirements to ../../build/ai_car/ai_car.egg-info/requires.txt\n'}
+[14.332732] (ai_car) StdoutLine: {'line': b'writing top-level names to ../../build/ai_car/ai_car.egg-info/top_level.txt\n'}
+[14.349280] (-) TimerEvent: {}
+[14.450487] (-) TimerEvent: {}
+[14.551560] (-) TimerEvent: {}
+[14.654463] (-) TimerEvent: {}
+[14.755719] (-) TimerEvent: {}
+[14.833832] (ai_car) StdoutLine: {'line': b"reading manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'\n"}
+[14.845975] (ai_car) StdoutLine: {'line': b"writing manifest file '../../build/ai_car/ai_car.egg-info/SOURCES.txt'\n"}
+[14.848950] (ai_car) StdoutLine: {'line': b'running build\n'}
+[14.850803] (ai_car) StdoutLine: {'line': b'running build_py\n'}
+[14.854135] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_odom.py -> /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car\n'}
+[14.855823] (-) TimerEvent: {}
+[14.860978] (ai_car) StdoutLine: {'line': b'copying ai_car/lidar_sub.py -> /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car\n'}
+[14.864768] (ai_car) StdoutLine: {'line': b'copying ai_car/aicar_follow.py -> /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car\n'}
+[14.869904] (ai_car) StdoutLine: {'line': b'copying ai_car/ball_detector.py -> /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car\n'}
+[14.872930] (ai_car) StdoutLine: {'line': b'running install\n'}
+[14.948843] (ai_car) StdoutLine: {'line': b'running install_lib\n'}
+[14.956038] (-) TimerEvent: {}
+[15.057174] (-) TimerEvent: {}
+[15.158536] (-) TimerEvent: {}
+[15.187893] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car/aicar_odom.py -> /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[15.193678] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car/lidar_sub.py -> /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[15.200133] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car/aicar_follow.py -> /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[15.204158] (ai_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/ai_car/build/lib/ai_car/ball_detector.py -> /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car\n'}
+[15.209801] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py to aicar_odom.cpython-312.pyc\n'}
+[15.226130] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/lidar_sub.py to lidar_sub.cpython-312.pyc\n'}
+[15.241400] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_follow.py to aicar_follow.cpython-312.pyc\n'}
+[15.251606] (ai_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/ball_detector.py to ball_detector.cpython-312.pyc\n'}
+[15.258791] (-) TimerEvent: {}
+[15.262588] (ai_car) StdoutLine: {'line': b'running install_data\n'}
+[15.269798] (ai_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.359047] (-) TimerEvent: {}
+[15.460190] (-) TimerEvent: {}
+[15.510557] (ai_car) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[15.515953] (ai_car) StdoutLine: {'line': b'Copying ../../build/ai_car/ai_car.egg-info to /home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car-0.0.0-py3.12.egg-info\n'}
+[15.531034] (ai_car) StdoutLine: {'line': b'running install_scripts\n'}
+[15.560498] (-) TimerEvent: {}
+[15.661591] (-) TimerEvent: {}
+[15.762751] (-) TimerEvent: {}
+[15.863914] (-) TimerEvent: {}
+[15.965142] (-) TimerEvent: {}
+[16.066298] (-) TimerEvent: {}
+[16.167488] (-) TimerEvent: {}
+[16.268546] (-) TimerEvent: {}
+[16.369693] (-) TimerEvent: {}
+[16.470825] (-) TimerEvent: {}
+[16.571953] (-) TimerEvent: {}
+[16.673149] (-) TimerEvent: {}
+[16.774291] (-) TimerEvent: {}
+[16.875578] (-) TimerEvent: {}
+[16.976798] (-) TimerEvent: {}
+[17.077959] (-) TimerEvent: {}
+[17.176240] (ai_car) StdoutLine: {'line': b'Installing aicar_base script to /home/ubuntu/ros2_ws/install/ai_car/lib/ai_car\n'}
+[17.178403] (ai_car) StdoutLine: {'line': b'Installing aicar_imu script to /home/ubuntu/ros2_ws/install/ai_car/lib/ai_car\n'}
+[17.179689] (-) TimerEvent: {}
+[17.181230] (ai_car) StdoutLine: {'line': b'Installing aicar_odom script to /home/ubuntu/ros2_ws/install/ai_car/lib/ai_car\n'}
+[17.183447] (ai_car) StdoutLine: {'line': b'Installing aicar_teleop script to /home/ubuntu/ros2_ws/install/ai_car/lib/ai_car\n'}
+[17.189474] (ai_car) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/ai_car/install.log'\n"}
+[17.280082] (-) TimerEvent: {}
+[17.381630] (-) TimerEvent: {}
+[17.437827] (ai_car) CommandEnded: {'returncode': 0}
+[17.481856] (-) TimerEvent: {}
+[17.556793] (ai_car) JobEnded: {'identifier': 'ai_car', 'rc': 0}
+[17.563837] (-) EventReactorShutdown: {}

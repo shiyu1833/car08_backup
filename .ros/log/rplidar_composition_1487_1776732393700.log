@@ -1,0 +1,2 @@
+[INFO] [1776732393.891012148] [rplidar]: RPLIDAR running on ROS 2 package rplidar_ros. SDK Version: '1.12.0'
+[ERROR] [1776732393.891669368] [rplidar]: Error, cannot bind to the specified serial port '/dev/RPLIDAR'.

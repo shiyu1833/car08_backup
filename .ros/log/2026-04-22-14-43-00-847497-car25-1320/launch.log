@@ -1,0 +1,18 @@
+1776840180.8545640 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-22-14-43-00-847497-car25-1320
+1776840180.8550904 [INFO] [launch]: Default logging verbosity is set to INFO
+1776840181.2843397 [INFO] [aicar_base-1]: process started with pid [1323]
+1776840181.2874005 [INFO] [aicar_imu-2]: process started with pid [1324]
+1776840181.2882495 [INFO] [aicar_odom-3]: process started with pid [1325]
+1776840181.2889011 [INFO] [camera_node-4]: process started with pid [1326]
+1776840181.2895303 [INFO] [rplidar_composition-5]: process started with pid [1327]
+1776840194.7068036 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776840195.0447500 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776840195.2680228 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776840195.2836938 [ERROR] [aicar_base-1]: process has died [pid 1323, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args -r __node:=aicar_base'].
+1776840195.4800301 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776840195.8525872 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776840195.8676610 [ERROR] [aicar_imu-2]: process has died [pid 1324, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu --ros-args -r __node:=aicar_imu'].
+1776840195.8688340 [ERROR] [aicar_odom-3]: process has died [pid 1325, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args -r __node:=aicar_odom'].
+1776840195.8707454 [ERROR] [camera_node-4]: process has died [pid 1326, exit code -2, cmd '/home/ubuntu/ros2_ws/install/camera_ros/lib/camera_ros/camera_node --ros-args -r __node:=camera --params-file /tmp/launch_params_eqg6upjc'].
+1776840196.2655151 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1776840196.3240640 [ERROR] [rplidar_composition-5]: process has died [pid 1327, exit code -11, cmd '/opt/ros/jazzy/lib/rplidar_ros/rplidar_composition --ros-args -r __node:=rplidar --params-file /tmp/launch_params_qa8wxkcr'].

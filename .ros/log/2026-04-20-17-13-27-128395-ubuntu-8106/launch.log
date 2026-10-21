@@ -1,0 +1,13 @@
+1776676407.1318457 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-20-17-13-27-128395-ubuntu-8106
+1776676407.1323786 [INFO] [launch]: Default logging verbosity is set to INFO
+1776676407.4322701 [INFO] [aicar_base-1]: process started with pid [8119]
+1776676407.4353991 [INFO] [aicar_imu-2]: process started with pid [8120]
+1776676407.4360240 [INFO] [aicar_odom-3]: process started with pid [8121]
+1776676407.4389246 [INFO] [camera_node-4]: process started with pid [8122]
+1776676407.4396036 [INFO] [rplidar_composition-5]: process started with pid [8123]
+1776676577.6844797 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776676578.0394275 [INFO] [camera_node-4]: process has finished cleanly [pid 8122]
+1776676578.3111053 [INFO] [aicar_odom-3]: process has finished cleanly [pid 8121]
+1776676578.3149841 [INFO] [aicar_imu-2]: process has finished cleanly [pid 8120]
+1776676578.5720086 [INFO] [rplidar_composition-5]: process has finished cleanly [pid 8123]
+1776676581.1073444 [INFO] [aicar_base-1]: process has finished cleanly [pid 8119]

@@ -1,0 +1,3 @@
+1778554606.7329280 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-10-56-46-722361-car08-3743
+1778554606.7340395 [INFO] [launch]: Default logging verbosity is set to INFO
+1778554607.2822025 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executable 'aicard_base' not found on the libexec directory '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car' 

@@ -1,0 +1,8 @@
+[INFO] [1777341094.036361262] [rplidar]: RPLIDAR running on ROS 2 package rplidar_ros. SDK Version: '1.12.0'
+[INFO] [1777341096.555258615] [rplidar]: RPLIDAR S/N: 42E7ED93C0EA98C9C2E29EF5B03D406E
+[INFO] [1777341096.555378816] [rplidar]: Firmware Ver: 1.29
+[INFO] [1777341096.555421093] [rplidar]: Hardware Rev: 7
+[INFO] [1777341096.556989023] [rplidar]: RPLidar health status : '0'
+[INFO] [1777341096.557181760] [rplidar]: Start
+[INFO] [1777341097.198849733] [rplidar]: current scan mode: Standard, max_distance: 12.0 m, Point number: 2.0K , angle_compensate: 1, flip_x_axis 0
+[INFO] [1777341482.128645821] [rclcpp]: signal_handler(SIGINT/SIGTERM)

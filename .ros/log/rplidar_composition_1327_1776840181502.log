@@ -1,0 +1,5 @@
+[INFO] [1776840181.628288964] [rplidar]: RPLIDAR running on ROS 2 package rplidar_ros. SDK Version: '1.12.0'
+[INFO] [1776840184.147618222] [rplidar]: RPLIDAR S/N: 42E7ED93C0EA98C9C2E29EF5B03D406E
+[INFO] [1776840184.147739388] [rplidar]: Firmware Ver: 1.29
+[INFO] [1776840184.147774388] [rplidar]: Hardware Rev: 7
+[ERROR] [1776840186.149930868] [rplidar]: Error, cannot retrieve rplidar health code: '80008002'

@@ -1,0 +1,37 @@
+1778555326.9405005 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-11-08-46-937147-car08-5102
+1778555326.9410596 [INFO] [launch]: Default logging verbosity is set to INFO
+1778555327.2048795 [INFO] [aicar_base-1]: process started with pid [5133]
+1778555327.2061176 [INFO] [aicar_imu-2]: process started with pid [5134]
+1778555327.2069600 [INFO] [aicar_odom-3]: process started with pid [5135]
+1778555329.5849328 [aicar_imu-2] [INFO] [1778555329.583641443] [aicar_imu]: IMU init OK
+1778555329.8430612 [aicar_base-1] [INFO] [1778555329.842319559] [aicar_base]: Connect U2D2 ...
+1778555329.8494644 [aicar_base-1] [INFO] [1778555329.848477444] [aicar_base]: [ OK ] AICAR start
+1778555330.0491607 [aicar_odom-3] [INFO] [1778555330.048530201] [aicar_odom]: Waiting for /imu ...
+1778555331.5679102 [aicar_odom-3] 1.301347752
+1778555331.7201054 [aicar_odom-3] Traceback (most recent call last):
+1778555331.7205899 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom", line 33, in <module>
+1778555331.7224588 [aicar_odom-3]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_odom')())
+1778555331.7233658 [aicar_odom-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778555331.7237363 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 175, in main
+1778555331.7240272 [aicar_odom-3]     rclpy.spin(node)
+1778555331.7247922 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+1778555331.7251744 [aicar_odom-3]     executor.spin_once()
+1778555331.7280085 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 923, in spin_once
+1778555331.7302098 [aicar_odom-3]     self._spin_once_impl(timeout_sec)
+1778555331.7344098 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 915, in _spin_once_impl
+1778555331.7361140 [aicar_odom-3]     raise handler.exception()
+1778555331.7394540 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 286, in _execute_coroutine_step
+1778555331.7418809 [aicar_odom-3]     result = coro.send(None)
+1778555331.7433546 [aicar_odom-3]              ^^^^^^^^^^^^^^^
+1778555331.7446411 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 592, in handler
+1778555331.7453392 [aicar_odom-3]     await call_coroutine()
+1778555331.7478106 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 480, in _execute
+1778555331.7497809 [aicar_odom-3]     await await_or_execute(sub.callback, *msg_tuple)
+1778555331.7506924 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 115, in await_or_execute
+1778555331.7526810 [aicar_odom-3]     return callback(*args)
+1778555331.7534273 [aicar_odom-3]            ^^^^^^^^^^^^^^^
+1778555331.7547233 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 163, in cb_calc_odom
+1778555331.7556374 [aicar_odom-3]     t.transform.rotation.z = sin(theta / 2)
+1778555331.7575107 [aicar_odom-3]                                  ^^^^^
+1778555331.7606075 [aicar_odom-3] NameError: name 'theta' is not defined. Did you mean: 'self.theta'?
+1778555331.9848154 [ERROR] [aicar_odom-3]: process has died [pid 5135, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args'].

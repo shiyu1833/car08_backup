@@ -1,0 +1,51 @@
+1778556351.7967181 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-11-25-51-793310-car08-2804
+1778556351.7972760 [INFO] [launch]: Default logging verbosity is set to INFO
+1778556352.0604081 [INFO] [aicar_base-1]: process started with pid [2823]
+1778556352.0616443 [INFO] [aicar_imu-2]: process started with pid [2824]
+1778556352.0625415 [INFO] [aicar_odom-3]: process started with pid [2825]
+1778556354.4279015 [aicar_imu-2] [INFO] [1778556354.426501451] [aicar_imu]: IMU init OK
+1778556354.6806285 [aicar_base-1] [INFO] [1778556354.679815780] [aicar_base]: Connect U2D2 ...
+1778556354.6849227 [aicar_base-1] [INFO] [1778556354.684108403] [aicar_base]: [ OK ] AICAR start
+1778556354.8819981 [aicar_odom-3] [INFO] [1778556354.881300112] [aicar_odom]: Waiting for /imu ...
+1778556356.3976049 [aicar_odom-3] 1.304675419
+1778556356.5546110 [aicar_odom-3] Traceback (most recent call last):
+1778556356.5551817 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom", line 33, in <module>
+1778556356.5562630 [aicar_odom-3]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_odom')())
+1778556356.5566549 [aicar_odom-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778556356.5570941 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 177, in main
+1778556356.5573330 [aicar_odom-3]     rclpy.spin(node)
+1778556356.5575454 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+1778556356.5577927 [aicar_odom-3]     executor.spin_once()
+1778556356.5580080 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 923, in spin_once
+1778556356.5590277 [aicar_odom-3]     self._spin_once_impl(timeout_sec)
+1778556356.5593777 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 915, in _spin_once_impl
+1778556356.5596173 [aicar_odom-3]     raise handler.exception()
+1778556356.5619688 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 286, in _execute_coroutine_step
+1778556356.5635421 [aicar_odom-3]     result = coro.send(None)
+1778556356.5649769 [aicar_odom-3]              ^^^^^^^^^^^^^^^
+1778556356.5671215 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 592, in handler
+1778556356.5681374 [aicar_odom-3]     await call_coroutine()
+1778556356.5728920 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 480, in _execute
+1778556356.5768671 [aicar_odom-3]     await await_or_execute(sub.callback, *msg_tuple)
+1778556356.5802879 [aicar_odom-3]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 115, in await_or_execute
+1778556356.5810854 [aicar_odom-3]     return callback(*args)
+1778556356.5818665 [aicar_odom-3]            ^^^^^^^^^^^^^^^
+1778556356.5825365 [aicar_odom-3]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_odom.py", line 168, in cb_calc_odom
+1778556356.5840344 [aicar_odom-3]     broadcaster.sendTransform(t)
+1778556356.5871785 [aicar_odom-3]     ^^^^^^^^^^^
+1778556356.5879300 [aicar_odom-3] NameError: name 'broadcaster' is not defined. Did you mean: 'self.broadcaster'?
+1778556356.8269200 [ERROR] [aicar_odom-3]: process has died [pid 2825, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args'].
+1778556660.0684063 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778556660.4729254 [INFO] [aicar_imu-2]: process has finished cleanly [pid 2824]
+1778556660.8956797 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778556660.8986783 [aicar_base-1] Exiting ...
+1778556660.9011149 [aicar_base-1] Traceback (most recent call last):
+1778556660.9021597 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778556660.9033301 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778556660.9053862 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778556660.9063551 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 233, in main
+1778556660.9071491 [aicar_base-1]     node.fn_shutdown()
+1778556660.9082129 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 220, in fn_shutdown
+1778556660.9101000 [aicar_base-1]     time.sleep(3)
+1778556660.9110563 [aicar_base-1] KeyboardInterrupt
+1778556661.1136093 [ERROR] [aicar_base-1]: process has died [pid 2823, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].

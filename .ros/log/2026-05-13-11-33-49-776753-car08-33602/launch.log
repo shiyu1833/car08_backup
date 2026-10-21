@@ -1,0 +1,93 @@
+1778643229.7865412 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-13-11-33-49-776753-car08-33602
+1778643229.7889578 [INFO] [launch]: Default logging verbosity is set to INFO
+1778643231.1384759 [INFO] [aicar_base-1]: process started with pid [33667]
+1778643231.1397717 [INFO] [aicar_imu-2]: process started with pid [33668]
+1778643231.1546540 [INFO] [aicar_odom-3]: process started with pid [33669]
+1778643231.1718163 [INFO] [rplidar_composition-4]: process started with pid [33670]
+1778643231.1823995 [INFO] [camera_node-5]: process started with pid [33671]
+1778643242.0290225 [aicar_base-1] [INFO] [1778643242.018770318] [aicar_base]: Connect U2D2 ...
+1778643242.0526533 [aicar_base-1] [INFO] [1778643242.043436023] [aicar_base]: [ OK ] AICAR start
+1778643242.2523053 [aicar_odom-3] [INFO] [1778643242.243827326] [aicar_odom]: Waiting for /imu ...
+1778643242.7789350 [aicar_imu-2] [INFO] [1778643242.773741295] [aicar_imu]: IMU init OK
+1778643250.0970960 [aicar_base-1] Exiting ...
+1778643250.6354997 [aicar_base-1] Traceback (most recent call last):
+1778643250.6401188 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778643250.6439009 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778643250.6507137 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778643250.6567757 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 229, in main
+1778643250.6642902 [aicar_base-1]     rclpy.spin(node)
+1778643250.6654346 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+1778643250.6672735 [aicar_base-1]     executor.spin_once()
+1778643250.6698549 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 923, in spin_once
+1778643250.6750393 [aicar_base-1]     self._spin_once_impl(timeout_sec)
+1778643250.6804321 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 915, in _spin_once_impl
+1778643250.6821330 [aicar_base-1]     raise handler.exception()
+1778643250.6859958 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 286, in _execute_coroutine_step
+1778643250.6871200 [aicar_base-1]     result = coro.send(None)
+1778643250.6918523 [aicar_base-1]              ^^^^^^^^^^^^^^^
+1778643250.6933389 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 592, in handler
+1778643250.6945648 [aicar_base-1]     await call_coroutine()
+1778643250.6961381 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 454, in _execute
+1778643250.6970582 [aicar_base-1]     await await_or_execute(tmr.callback)
+1778643250.6980226 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 115, in await_or_execute
+1778643250.6996527 [aicar_base-1]     return callback(*args)
+1778643250.7005889 [aicar_base-1]            ^^^^^^^^^^^^^^^
+1778643250.7017846 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 145, in cb_timer
+1778643250.7028253 [aicar_base-1]     self.fn_update_states()
+1778643250.7040725 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 191, in fn_update_states
+1778643250.7052450 [aicar_base-1]     self.wheel_states = self.wheel.get_wheel()
+1778643250.7068434 [aicar_base-1]                         ^^^^^^^^^^^^^^^^^^^^^^
+1778643250.7084744 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/dxl_wheel.py", line 67, in get_wheel
+1778643250.7098186 [aicar_base-1]     get_data[0], result, error = self.packet.read4ByteTxRx(self.port, LEFT_ID, XM_PRESENT_POSITION_ADDRESS)
+1778643250.7111027 [aicar_base-1]                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778643250.7127347 [aicar_base-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py", line 390, in read4ByteTxRx
+1778643250.7175055 [aicar_base-1]     data_read = DXL_MAKEDWORD(DXL_MAKEWORD(data[0], data[1]),
+1778643250.7190373 [aicar_base-1]                                                     ~~~~^^^
+1778643250.7203329 [aicar_base-1] IndexError: list index out of range
+1778643251.2455492 [ERROR] [aicar_base-1]: process has died [pid 33667, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778643344.1125784 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778643344.4613738 [aicar_odom-3] 0.268224028
+1778643344.4624166 [aicar_odom-3] 0.05635169
+1778643344.4633198 [aicar_odom-3] 0.138747393
+1778643344.4642735 [aicar_odom-3] 0.129175566
+1778643344.4651318 [aicar_odom-3] 0.122641776
+1778643344.4660125 [aicar_odom-3] 0.136078941
+1778643344.4669285 [aicar_odom-3] 0.647438559
+1778643344.4678564 [aicar_odom-3] 0.108176869
+1778643344.4687014 [aicar_odom-3] 0.107731896
+1778643344.4695067 [aicar_odom-3] 0.127141769
+1778643344.4703386 [aicar_odom-3] 0.112641844
+1778643344.4711070 [aicar_odom-3] 0.117916675
+1778643344.4719775 [aicar_odom-3] 0.110362534
+1778643344.4729543 [aicar_odom-3] 0.106998075
+1778643344.4737732 [aicar_odom-3] 0.12061246
+1778643344.4745526 [aicar_odom-3] 0.109808155
+1778643344.4753273 [aicar_odom-3] 0.131344748
+1778643344.4760287 [aicar_odom-3] 0.105241848
+1778643344.4773064 [aicar_odom-3] 0.112147038
+1778643344.4780939 [aicar_odom-3] 0.11730089
+1778643344.4789138 [aicar_odom-3] 0.113499866
+1778643344.4812758 [aicar_odom-3] 0.131230121
+1778643344.4820430 [aicar_odom-3] 0.099916536
+1778643344.4828680 [aicar_odom-3] 0.113064077
+1778643344.4837184 [aicar_odom-3] 0.113603753
+1778643344.4845307 [aicar_odom-3] 0.11509643
+1778643344.4853375 [aicar_odom-3] 0.135458563
+1778643344.4860523 [aicar_odom-3] 0.119766049
+1778643344.4869196 [aicar_odom-3] 0.159216136
+1778643344.4877234 [aicar_odom-3] 0.078985691
+1778643344.5470660 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778643344.6147270 [aicar_imu-2] Traceback (most recent call last):
+1778643344.6159289 [aicar_imu-2]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu", line 33, in <module>
+1778643344.6207438 [aicar_imu-2]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_imu')())
+1778643344.6218464 [aicar_imu-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778643344.6234498 [aicar_imu-2]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_imu.py", line 101, in main
+1778643344.6326907 [aicar_imu-2]     node.destroy_node()
+1778643344.6349258 [aicar_imu-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1968, in destroy_node
+1778643344.6393762 [aicar_imu-2]     self.__node.destroy_when_not_in_use()
+1778643344.6404593 [aicar_imu-2] KeyboardInterrupt
+1778643344.6627061 [ERROR] [aicar_odom-3]: process has died [pid 33669, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_odom --ros-args'].
+1778643344.8737514 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1778643344.9184856 [ERROR] [camera_node-5]: process has died [pid 33671, exit code -2, cmd '/home/ubuntu/camera_ws/install/camera_ros/lib/camera_ros/camera_node --ros-args -r __node:=camera --params-file /tmp/launch_params_ajepobg6'].
+1778643344.9313486 [ERROR] [aicar_imu-2]: process has died [pid 33668, exit code -2, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_imu --ros-args'].
+1778643344.9423907 [INFO] [rplidar_composition-4]: process has finished cleanly [pid 33670]

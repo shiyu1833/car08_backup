@@ -1,0 +1,33 @@
+1778554758.6905582 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-12-10-59-18-685013-car08-3983
+1778554758.6914666 [INFO] [launch]: Default logging verbosity is set to INFO
+1778554759.1631866 [INFO] [aicar_base-1]: process started with pid [4005]
+1778554759.1641901 [INFO] [aicar_imu-2]: process started with pid [4006]
+1778554759.1650627 [INFO] [aicar_odom-3]: process started with pid [4007]
+1778554762.8760972 [aicar_odom-3] [INFO] [1778554762.873173554] [aicar_odom]: Waiting for /imu ...
+1778554762.9191360 [aicar_imu-2] [INFO] [1778554762.913363186] [aicar_imu]: IMU init OK
+1778554763.2536707 [aicar_base-1] Traceback (most recent call last):
+1778554763.2577908 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 33, in <module>
+1778554763.2625256 [aicar_base-1]     sys.exit(load_entry_point('ai-car==0.0.0', 'console_scripts', 'aicar_base')())
+1778554763.2631938 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554763.2655656 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base", line 25, in importlib_load_entry_point
+1778554763.2698426 [aicar_base-1]     return next(matches).load()
+1778554763.2704656 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^
+1778554763.2709999 [aicar_base-1]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+1778554763.2744138 [aicar_base-1]     module = import_module(match.group('module'))
+1778554763.2777982 [aicar_base-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554763.2804551 [aicar_base-1]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+1778554763.2838368 [aicar_base-1]     return _bootstrap._gcd_import(name[level:], package, level)
+1778554763.2844524 [aicar_base-1]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1778554763.2859228 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+1778554763.2907867 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+1778554763.2915208 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+1778554763.2920942 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+1778554763.2931406 [aicar_base-1]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+1778554763.2986493 [aicar_base-1]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+1778554763.2992029 [aicar_base-1]   File "/home/ubuntu/ros2_ws/install/ai_car/lib/python3.12/site-packages/ai_car/aicar_base.py", line 12, in <module>
+1778554763.2998369 [aicar_base-1]     from dxl_wheel import Wheel_Controller
+1778554763.3009534 [aicar_base-1] ModuleNotFoundError: No module named 'dxl_wheel'
+1778554763.6236913 [ERROR] [aicar_base-1]: process has died [pid 4005, exit code 1, cmd '/home/ubuntu/ros2_ws/install/ai_car/lib/ai_car/aicar_base --ros-args'].
+1778554886.6109831 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1778554887.1057169 [INFO] [aicar_imu-2]: process has finished cleanly [pid 4006]
+1778554887.1162186 [INFO] [aicar_odom-3]: process has finished cleanly [pid 4007]

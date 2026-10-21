@@ -1,0 +1,11 @@
+1778654103.0071273 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-13-14-35-02-998599-car08-55731
+1778654103.0083649 [INFO] [launch]: Default logging verbosity is set to INFO
+1778654103.8064198 [INFO] [aicar_base-1]: process started with pid [55750]
+1778654103.8109024 [INFO] [aicar_imu-2]: process started with pid [55751]
+1778654103.8160698 [INFO] [aicar_odom-3]: process started with pid [55752]
+1778654103.8174951 [INFO] [rplidar_composition-4]: process started with pid [55753]
+1778654103.8222349 [INFO] [camera_node-5]: process started with pid [55754]
+1778654111.1171200 [aicar_imu-2] [INFO] [1778654111.115830617] [aicar_imu]: IMU init OK
+1778654111.4910123 [aicar_base-1] [INFO] [1778654111.487472816] [aicar_base]: Connect U2D2 ...
+1778654111.5206692 [aicar_base-1] [INFO] [1778654111.516944790] [aicar_base]: [ OK ] AICAR start
+1778654112.5387959 [aicar_odom-3] [INFO] [1778654112.536221575] [aicar_odom]: Waiting for /imu ...

@@ -1,0 +1,98 @@
+[0.065s] Invoking command in '/home/ubuntu/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/camera_ws/install/camera_ros
+[1.335s] -- The C compiler identification is GNU 13.3.0
+[2.200s] -- The CXX compiler identification is GNU 13.3.0
+[2.313s] -- Detecting C compiler ABI info
+[2.835s] -- Detecting C compiler ABI info - done
+[2.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.875s] -- Detecting C compile features
+[2.877s] -- Detecting C compile features - done
+[2.935s] -- Detecting CXX compiler ABI info
+[3.434s] -- Detecting CXX compiler ABI info - done
+[3.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.470s] -- Detecting CXX compile features
+[3.472s] -- Detecting CXX compile features - done
+[3.514s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.230s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.938s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[4.966s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.323s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.436s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.239s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.269s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[6.462s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.861s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[7.127s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.450s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[7.556s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[7.617s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[7.846s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[7.929s] -- Checking for module 'libcamera>=0.1'
+[8.008s] --   Found libcamera, version 0.5.2
+[8.234s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.002s] -- Added test 'clang_format' to check C / C++ code style
+[9.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.046s] -- Configured cppcheck include dirs: 
+[9.046s] -- Configured cppcheck exclude dirs and/or files: 
+[9.056s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.056s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.069s] -- Added test 'lint_cmake' to check CMake code style
+[9.079s] -- Added test 'mypy' to statically type check Python code.
+[9.088s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.095s] -- Added test 'pyflakes' to perform static code analysis on Python code
+[9.105s] -- Added test 'xmllint' to check XML markup files
+[9.120s] -- Configuring done (8.8s)
+[9.260s] -- Generating done (0.1s)
+[9.287s] -- Build files have been written to: /home/ubuntu/camera_ws/build/camera_ros
+[9.328s] Invoked command in '/home/ubuntu/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/camera_ws/install/camera_ros
+[9.335s] Invoking command in '/home/ubuntu/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/camera_ws/build/camera_ros -- -j4 -l4
+[9.596s] [  7%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[9.600s] [ 15%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[9.604s] [ 23%] [32mBuilding CXX object CMakeFiles/param.dir/src/clamp.cpp.o[0m
+[9.652s] [ 30%] [32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o[0m
+[16.631s] [ 38%] [32mBuilding CXX object CMakeFiles/param.dir/src/cv_to_pv.cpp.o[0m
+[19.363s] [ 46%] [32mBuilding CXX object CMakeFiles/param.dir/src/pv_to_cv.cpp.o[0m
+[26.725s] [ 46%] Built target utils
+[26.791s] [ 53%] [32mBuilding CXX object CMakeFiles/param.dir/src/types.cpp.o[0m
+[27.369s] [ 61%] [32mBuilding CXX object CMakeFiles/param.dir/src/type_extent.cpp.o[0m
+[28.518s] [ 69%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterHandler.cpp.o[0m
+[32.131s] [ 76%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterConflictHandler.cpp.o[0m
+[39.725s] [ 84%] [32m[1mLinking CXX executable camera_node[0m
+[40.654s] [ 84%] Built target camera_node
+[49.146s] [ 84%] Built target param
+[49.247s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o[0m
+[93.993s] [100%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[97.006s] [100%] Built target camera_component
+[97.060s] Invoked command in '/home/ubuntu/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/camera_ws/build/camera_ros -- -j4 -l4
+[97.108s] Invoking command in '/home/ubuntu/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/camera_ws/build/camera_ros
+[97.144s] -- Install configuration: ""
+[97.145s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/lib/camera_ros/camera_node
+[97.150s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/camera_ws/install/camera_ros/lib/camera_ros/camera_node" to ""
+[97.151s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh
+[97.152s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv
+[97.153s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/lib/libcamera_component.so
+[97.197s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""
+[97.197s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros//launch
+[97.198s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[97.202s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[97.204s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[97.205s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[97.206s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[97.207s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[97.209s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[97.210s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[97.211s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[97.212s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[97.214s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[97.215s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/package.dsv
+[97.216s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[97.217s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[97.219s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+[97.220s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+[97.221s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+[97.222s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.223s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[97.224s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[97.225s] -- Installing: /home/ubuntu/camera_ws/install/camera_ros/share/camera_ros/package.xml
+[97.232s] Invoked command in '/home/ubuntu/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/ai_car:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/camera_ws/build/camera_ros

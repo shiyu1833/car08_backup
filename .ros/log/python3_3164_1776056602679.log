@@ -1,0 +1,12 @@
+[INFO] [1776056602.989770004] [aicar_base]: Connect U2D2 ...
+[INFO] [1776056602.993376285] [aicar_base]: [ OK ] AICAR start
+[INFO] [1776056653.453555443] [aicar_base]: [ SET ] ARM Joint : 45.00, 45.00
+[INFO] [1776056661.438504214] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1776056661.440643878] [aicar_base]: [ SET ] ARM Joint : 2.00, 0.00
+[INFO] [1776056664.286739409] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1776056664.288820321] [aicar_base]: [ SET ] ARM Joint : 4.00, 0.00
+[INFO] [1776056665.006754527] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1776056665.008866029] [aicar_base]: [ SET ] ARM Joint : 6.00, 0.00
+[INFO] [1776056665.390816608] [aicar_base]: [ SET ] ARM Tool : 0.00
+[INFO] [1776056665.392903922] [aicar_base]: [ SET ] ARM Joint : 8.00, 0.00
+[INFO] [1776056714.719981435] [aicar_base]: [ SET ] WHEEL : 0, 0

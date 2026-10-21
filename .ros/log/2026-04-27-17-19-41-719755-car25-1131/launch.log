@@ -1,0 +1,7 @@
+1777281581.7281215 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-04-27-17-19-41-719755-car25-1131
+1777281581.7287593 [INFO] [launch]: Default logging verbosity is set to INFO
+1777281582.1650774 [INFO] [aicar_base-1]: process started with pid [1134]
+1777281582.1660895 [INFO] [aicar_imu-2]: process started with pid [1135]
+1777281582.1670079 [INFO] [aicar_odom-3]: process started with pid [1136]
+1777281582.1678758 [INFO] [camera_node-4]: process started with pid [1137]
+1777281582.1687508 [INFO] [rplidar_composition-5]: process started with pid [1138]
